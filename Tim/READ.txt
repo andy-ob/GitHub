@@ -1,0 +1,21 @@
+BM FRAMEWORK V 2.0.1
+
+************
+ABOUT
+************
+Internal framework for use within Boxmodel Digital.
+
+SASS based customisable multi column responsive framework, follow instructions on
+index.html for how to use. All sass files can be found within the /sass folder. Run
+these with compass or another proprocessor to generate the css files.
+
+Copy sass/js folder into /Assets/ of your project.
+
+************
+CHANGE LOG
+************
+2.0.5 - Added IE conditional statement to HTML element
+2.0.4 - Added animations.scss, small CSS animation library at present
+
+************
+Tim Horwood
