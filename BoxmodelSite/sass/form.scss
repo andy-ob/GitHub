@@ -1,0 +1,30 @@
+@import "global-variables";
+
+input, label, textarea {
+  display: block;
+  width: 100%;
+}
+input, textarea, select {
+  border: 2px solid #ccc;
+  @include border-radius(5px);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+input[type='checkbox'], input[type='radio'] {
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  + label {
+    padding-left: 20px;
+  }
+}
+button {
+  border: none;
+  margin-top: 20px;
+}
+.frmRow {
+  margin-bottom: 10px;
+  position: relative;
+}

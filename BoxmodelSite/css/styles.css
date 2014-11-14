@@ -1,0 +1,1615 @@
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.cf:before,
+.cf:after, .row:before, .row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after, .row:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf, .row {
+  *zoom: 1;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background: #f0f0ec;
+  color: #323A45;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  height: 100%;
+  line-height: 1.61803em;
+  position: relative;
+  -webkit-font-smoothing: antialised;
+}
+
+#mediaCheck {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+#preload {
+  background: #323A45;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+#preload #loader {
+  height: 246px;
+  left: 50%;
+  margin: -123px 0 0 -180px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 360px;
+}
+#preload img {
+  display: block;
+  width: 100%;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+h1, h2, h3, h4, h5, h6 {
+  color: #323A45;
+  font-weight: 200;
+  line-height: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.625em;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.375em;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 1.125em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #c1d72e;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.61803em;
+  padding: 50px 0;
+}
+
+.icon i {
+  font-size: 3em;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+img {
+  display: inline-block;
+  width: auto;
+}
+
+blockquote {
+  color: #c1d72e;
+  font-size: 1.25em;
+  font-style: italic;
+  padding: 20px 10px;
+}
+
+/**********/
+/* List elements */
+ul, ol {
+  margin: 20px 0;
+}
+ul li, ol li {
+  padding: 0 0 10px 0;
+}
+
+ul {
+  padding: 0 0 0 30px;
+}
+
+dl {
+  margin: 20px 0;
+}
+dl dd, dl dt {
+  padding: 0 0 10px 0;
+}
+
+hr {
+  border: 4px solid #c1d72e;
+  margin: 40px 0 20px;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  display: none;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+.btn {
+  background: #323A45;
+  color: #fff;
+  display: inline-block;
+  padding: 0.625em 1.875em;
+}
+.btn:hover {
+  background: #c1d72e;
+  color: #323A45;
+  text-decoration: none;
+}
+.btn.alt {
+  background: #bababa;
+  color: #fff;
+  display: inline-block;
+  padding: 0.625em 1.875em;
+}
+.btn.small {
+  padding: 0.3125em 0.9375em;
+}
+
+.btn-group {
+  margin: 3.125em 0 0;
+  text-align: center;
+}
+.btn-group .btn {
+  margin: 0 0.3125em;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+input, label, textarea {
+  display: block;
+  width: 100%;
+}
+
+input, textarea, select {
+  border: 2px solid #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+input[type='checkbox'] + label, input[type='radio'] + label {
+  padding-left: 20px;
+}
+
+button {
+  border: none;
+  margin-top: 20px;
+}
+
+.frmRow {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: #13a521;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+.info {
+  background: url("../images/info-icon.png") no-repeat right 5px;
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+}
+.info:hover {
+  text-decoration: none;
+}
+.info:hover .tooltip {
+  display: block;
+}
+.info .tooltip {
+  background: #eaeaea;
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  display: none;
+  padding: 10px;
+  position: absolute;
+  right: -10px;
+  width: 280px;
+  z-index: 2;
+}
+.info.tool-bottom .tooltip:after {
+  border-bottom: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 6px;
+  top: -10px;
+  width: 0;
+}
+.info.tool-right .tooltip {
+  right: -294px;
+  top: -5px;
+}
+.info.tool-right .tooltip:after {
+  border-right: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  width: 0;
+}
+.info.tool-left .tooltip {
+  -moz-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  left: -294px;
+  top: -4px;
+}
+.info.tool-left .tooltip:after {
+  border-left: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -10px;
+  top: 6px;
+  width: 0;
+}
+.info.tool-top .tooltip {
+  bottom: 38px;
+  -moz-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+}
+.info.tool-top .tooltip:after {
+  border-top: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 7px;
+  width: 0;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* Layout */
+.contain {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.contain.breakout {
+  max-width: 1440px;
+}
+
+/**********/
+/* Respond, fluid layout */
+.row {
+  clear: both;
+}
+.row.negative-10 {
+  margin: 0 -10px;
+}
+.row.negative-10 .even-pad {
+  margin: 0 10px;
+}
+.row.negative-20 {
+  margin: 0 -20px;
+}
+.row.negative-20 .even-pad {
+  margin: 0 20px;
+}
+.row.negative-30 {
+  margin: 0 -30px;
+}
+.row.negative-30 .even-pad {
+  margin: 0 30px;
+}
+.row.negative-left-30 {
+  margin-left: -30px;
+  width: auto;
+}
+.row.negative-right-10 {
+  margin-right: -10px;
+}
+
+.no-bg .col {
+  filter: none;
+  background: none;
+}
+
+.gutter-10 {
+  padding: 30px;
+}
+
+.gutter-20 {
+  padding: 30px;
+}
+
+.gutter-30 {
+  padding: 30px;
+}
+
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col {
+  float: left;
+}
+
+.one-col {
+  width: 8.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.two-col {
+  width: 16.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.three-col {
+  width: 25%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.four-col {
+  width: 33.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.five-col {
+  width: 41.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.six-col {
+  width: 50%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.seven-col {
+  width: 58.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.eight-col {
+  width: 66.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.nine-col {
+  width: 75%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.ten-col {
+  width: 83.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.eleven-col {
+  width: 91.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.twelve-col {
+  width: 100%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.thirteen-col {
+  width: 108.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.fourteen-col {
+  width: 116.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.fifteen-col {
+  width: 125%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+.sixteen-col {
+  width: 133.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/*Offsets*/
+.offby-one {
+  margin-left: 8.33333%;
+}
+
+.offby-two {
+  margin-left: 16.66667%;
+}
+
+.offby-three {
+  margin-left: 25%;
+}
+
+.offby-four {
+  margin-left: 33.33333%;
+}
+
+.offby-five {
+  margin-left: 41.66667%;
+}
+
+.offby-six {
+  margin-left: 50%;
+}
+
+.offby-seven {
+  margin-left: 58.33333%;
+}
+
+.offby-eight {
+  margin-left: 66.66667%;
+}
+
+.offby-nine {
+  margin-left: 75%;
+}
+
+.offby-ten {
+  margin-left: 83.33333%;
+}
+
+.offby-eleven {
+  margin-left: 91.66667%;
+}
+
+.offby-twelve {
+  margin-left: 100%;
+}
+
+.offby-thirteen {
+  margin-left: 108.33333%;
+}
+
+.offby-fourteen {
+  margin-left: 116.66667%;
+}
+
+.offby-fifteen {
+  margin-left: 125%;
+}
+
+.animate .animation-item {
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animate .animation-item.delay-10 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.animate .animation-item.delay-14 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.animate .animation-item.delay-18 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+.animate .fadeIn {
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.animate .initial-animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animate .delayed-animate {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animate .fadeScale {
+  -webkit-animation-name: fadeScale;
+  animation-name: fadeScale;
+}
+.animate .faderotate360 {
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-name: faderotate360;
+  animation-name: faderotate360;
+}
+.animate .rotateXY {
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-name: rotateXY;
+  animation-name: rotateXY;
+}
+.animate .element-up {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-name: elementUp;
+  animation-name: elementUp;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.animate .element-up.delay-1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.animate .element-up.delay-2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.animate .element-up.delay-3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.animate .element-up.delay-3 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.element-up {
+  opacity: 0;
+  -webkit-transform: translateY(400px);
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes elementUp {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes elementUp {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-webkit-keyframes fadeScale {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes fadeScale {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes faderotate360 {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  42% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  45% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  51% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes faderotate360 {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  42% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  45% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  51% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+  }
+}
+@-webkit-keyframes rotateXY {
+  0% {
+    transform: rotateX(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+  33% {
+    transform: rotateX(-315deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-15deg);
+  }
+  66% {
+    transform: rotateY(-315deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-315deg);
+  }
+  100% {
+    transform: rotateY(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+}
+@keyframes rotateXY {
+  0% {
+    transform: rotateX(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+  66% {
+    transform: rotateY(-315deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-315deg);
+  }
+  100% {
+    transform: rotateY(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+}
+.parallax-block {
+  overflow: hidden;
+  position: relative;
+}
+.parallax-block .parallax-item {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+header {
+  background: #323A45;
+  -moz-box-shadow: 2px 2px 4px #888888;
+  -webkit-box-shadow: 2px 2px 4px #888888;
+  box-shadow: 2px 2px 4px #888888;
+  position: relative;
+}
+
+#logo {
+  padding: 26px;
+}
+#logo img {
+  display: block;
+}
+
+.menu-trigger {
+  background: rgba(50, 58, 69, 0.7);
+  border-radius: 3px;
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  right: 40px;
+  top: 25px;
+  width: 60px;
+  padding: 10px;
+  z-index: 999;
+}
+.menu-trigger span {
+  background: white;
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 13px auto;
+  position: relative;
+  text-indent: 100%;
+  white-space: nowrap;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-trigger span:before, .menu-trigger span:after {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-trigger span:before, .menu-trigger span::before {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: -13px;
+  width: 100%;
+}
+.menu-trigger span:after, .menu-trigger span::after {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  bottom: -13px;
+  width: 100%;
+}
+.menu-trigger:not(.open):hover span:before {
+  -webkit-animation: menuHoverB .3s linear;
+  animation: menuHoverB .3s linear;
+}
+.menu-trigger:not(.open):hover span:after {
+  -webkit-animation: menuHoverA .3s linear;
+  animation: menuHoverA .3s linear;
+}
+.menu-trigger.open span {
+  background: transparent;
+}
+.menu-trigger.open span:before {
+  transform: rotate(45deg) translate(10px, 8px);
+}
+.menu-trigger.open span:after {
+  transform: rotate(-45deg) translate(10px, -8px);
+}
+
+#leadNav {
+  background: #323a45;
+  height: 100%;
+  padding: 125px 0 50px;
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  z-index: 990;
+}
+#leadNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#leadNav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#leadNav li a {
+  color: #ffffff;
+  display: block;
+  font-weight: 300;
+  padding: 20px 50px;
+}
+#leadNav li a:hover, #leadNav li a.active {
+  background: #c1d72e;
+  color: #323A45;
+  text-decoration: none;
+}
+#leadNav .subNav {
+  background: #c1d72e;
+  height: 0;
+  margin-left: 20px;
+  overflow: hidden;
+}
+#leadNav .subNav li a:hover {
+  background: #ffffff;
+}
+#leadNav .subNavTrigger {
+  height: 65px;
+  overflow: hidden;
+  padding: 30px 0 0;
+  position: absolute;
+  right: 20px;
+  text-indent: 300%;
+  top: 0;
+  white-space: nowrap;
+  width: 30px;
+}
+#leadNav .subNavTrigger:hover {
+  background: none;
+}
+#leadNav .subNavTrigger span {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#leadNav .subNavTrigger span:after, #leadNav .subNavTrigger span::after {
+  background: white;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  width: 100%;
+}
+#leadNav .subNavTrigger.open span {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#logo-home {
+  height: 246px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -123px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 600px;
+}
+#logo-home .strap {
+  color: #919496;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.61803em;
+  padding: 20px;
+}
+
+@-webkit-keyframes menuHoverB {
+  0% {
+    top: -13px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: -13px;
+  }
+}
+@keyframes menuHoverB {
+  0% {
+    top: -13px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: -13px;
+  }
+}
+@-webkit-keyframes menuHoverA {
+  0% {
+    bottom: -13px;
+  }
+  50% {
+    bottom: -10px;
+  }
+  100% {
+    bottom: -13px;
+  }
+}
+@keyframes menuHoverA {
+  0% {
+    bottom: -13px;
+  }
+  50% {
+    bottom: -10px;
+  }
+  100% {
+    bottom: -13px;
+  }
+}
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+footer {
+  margin-top: 50px;
+}
+
+#social {
+  background: #323a45;
+  padding: 20px 0;
+}
+
+#footernav {
+  text-align: center;
+}
+#footernav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#footernav ul li {
+  display: inline-block;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+#footernav ul a {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #D0DBE2;
+  display: block;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#footernav ul a i {
+  display: block;
+  font-size: 2em;
+  font-size: 3.2rem;
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+}
+#footernav ul a:hover {
+  background-color: #c1d72e;
+  color: #ffffff;
+}
+
+.facebook span {
+  background-position: 0 -70px;
+}
+
+.email span {
+  background-position: 0 -140px;
+}
+
+#credits {
+  background: #23282F;
+  padding: 20px 0;
+  text-align: center;
+}
+#credits p {
+  color: #fff;
+  font-size: 0.875em;
+  font-size: 1.4rem;
+  margin: 0;
+}
+#credits a {
+  color: #fff;
+  font-weight: 200;
+}
+#credits a:hover {
+  color: #c1d72e;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,341 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 14, ../sass/content.scss */
+#hero {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 20, ../sass/content.scss */
+#imagecontain {
+  height: 77vh;
+  height: 600px\9;
+  overflow: hidden;
+  position: relative;
+}
+/* line 26, ../sass/content.scss */
+#imagecontain img {
+  position: relative;
+}
+@media all and (max-width: 1130px) {
+  /* line 20, ../sass/content.scss */
+  #imagecontain {
+    height: auto;
+  }
+}
+
+/* line 35, ../sass/content.scss */
+#mask {
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 44, ../sass/content.scss */
+#intro {
+  background-color: #c1d72e;
+  padding: 2.5em 1.875em;
+  margin-bottom: 2.5em;
+  position: relative;
+  text-align: center;
+}
+/* line 51, ../sass/content.scss */
+#intro.singlepost {
+  padding: 4.375em 1.875em;
+}
+/* line 54, ../sass/content.scss */
+#intro.singlepost * {
+  color: #ffffff;
+}
+/* line 59, ../sass/content.scss */
+#intro.singlepost .entrymeta span, #intro.singlepost .entrymeta a {
+  font-size: 1.125em;
+  font-style: italic;
+}
+/* line 66, ../sass/content.scss */
+#intro.port-title {
+  background: #ffffff;
+  -moz-box-shadow: 0 1px 5px #888888;
+  -webkit-box-shadow: 0 1px 5px #888888;
+  box-shadow: 0 1px 5px #888888;
+  margin-bottom: 0;
+  padding: 1.25em 1.875em;
+}
+/* line 72, ../sass/content.scss */
+#intro.port-title p {
+  font-size: 1.125em;
+  font-style: italic;
+  margin: 0;
+}
+/* line 78, ../sass/content.scss */
+#intro.port-title:after {
+  border: 0;
+}
+/* line 83, ../sass/content.scss */
+#intro h1, #intro h2, #intro p {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.617em;
+  margin: 0;
+}
+/* line 90, ../sass/content.scss */
+#intro:after {
+  border-bottom: 20px solid #f0f0ec;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: 0;
+  content: "";
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+}
+
+/* line 102, ../sass/content.scss */
+#text-intro {
+  padding: 50px 0;
+}
+
+/* line 109, ../sass/content.scss */
+.content-section {
+  padding: 3.25em 0;
+}
+/* line 112, ../sass/content.scss */
+.content-section h2 {
+  font-weight: 700;
+  margin-bottom: 2.8125em;
+  text-align: center;
+}
+
+/* line 119, ../sass/content.scss */
+#services {
+  text-align: center;
+}
+/* line 122, ../sass/content.scss */
+#services h3 {
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+/* line 128, ../sass/content.scss */
+.icon-fill {
+  list-style: none;
+}
+/* line 131, ../sass/content.scss */
+.icon-fill li {
+  position: relative;
+  z-index: 2;
+  margin-left: 250px;
+}
+/* line 136, ../sass/content.scss */
+.icon-fill li:before, .icon-fill li:after {
+  content: '';
+  position: absolute;
+  width: 270px;
+  right: 100%;
+  z-index: 2;
+}
+/* line 144, ../sass/content.scss */
+.icon-fill li:before {
+  top: 0;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+/* line 150, ../sass/content.scss */
+.icon-fill li.icon-1:before {
+  background: url(../images/icons/software-icon.png) no-repeat;
+}
+
+/* line 156, ../sass/content.scss */
+.listing-item {
+  background: white;
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  height: 328px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 164, ../sass/content.scss */
+.listing-item .item-select {
+  bottom: 0;
+  display: block;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 173, ../sass/content.scss */
+.listing-item .item-select .latest-thumb {
+  display: block;
+  width: 100%;
+}
+/* line 178, ../sass/content.scss */
+.listing-item .item-select .type {
+  background: white;
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  color: #323A45;
+  display: inline-block;
+  font-size: 0.8125em;
+  font-weight: 700;
+  left: 0;
+  padding: 0.625em;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+/* line 197, ../sass/content.scss */
+.listing-item .item-select:hover .latest-thumb {
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: slowScale;
+  -moz-animation-name: slowScale;
+  -o-animation-name: slowScale;
+  animation-name: slowScale;
+}
+/* line 215, ../sass/content.scss */
+.listing-item .item-select:hover .cover {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.22), inset -2px -2px 2px rgba(0, 0, 0, 0.22);
+  opacity: 1;
+}
+/* line 223, ../sass/content.scss */
+.listing-item .item-select:hover .cover .meta-wrap {
+  bottom: 10px;
+}
+/* line 227, ../sass/content.scss */
+.listing-item .item-select:hover .cover .brand-logo {
+  opacity: 1;
+}
+
+@-webkit-keyframes slowScale {
+  100% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+/* line 245, ../sass/content.scss */
+.cover {
+  background: rgba(193, 215, 46, 0.85);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 255, ../sass/content.scss */
+.cover .latest-meta {
+  background: white;
+  color: #323A45;
+  padding: 0.625em;
+}
+
+/* line 262, ../sass/content.scss */
+.meta-wrap {
+  bottom: -100px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+/* line 273, ../sass/content.scss */
+.meta-wrap .latest-meta {
+  background: white;
+  color: #323A45;
+  display: inline-block;
+}
+/* line 279, ../sass/content.scss */
+.meta-wrap .title {
+  font-size: 1.125em;
+  font-weight: 700;
+}
+/* line 284, ../sass/content.scss */
+.meta-wrap .summary {
+  font-size: 0.8155em;
+  line-height: 1.61803em;
+  margin: 0;
+}
+/* line 290, ../sass/content.scss */
+.meta-wrap .publishdate {
+  font-size: 0.75em;
+}
+
+/* line 296, ../sass/content.scss */
+.work-item .brand-logo {
+  opacity: 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  width: 120px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+/* line 306, ../sass/content.scss */
+.work-item .brand-logo img {
+  display: block;
+}
+
+/* line 313, ../sass/content.scss */
+.blog-item .meta-wrap {
+  bottom: -300px;
+}
+
+/* line 320, ../sass/content.scss */
+.sec-1 .parallax-item.level-1 {
+  background: url(../images/about-sec-1-bg-1.png) no-repeat 50% 50%;
+}
+/* line 324, ../sass/content.scss */
+.sec-1 .parallax-item.level-2 {
+  background: url(../images/about-sec-1-bg-2.png) no-repeat 50% 50%;
+}
+/* line 328, ../sass/content.scss */
+.sec-1 .parallax-item.level-3 {
+  background: url(../images/about-sec-1-bg-3.png) no-repeat 50% 50%;
+}
