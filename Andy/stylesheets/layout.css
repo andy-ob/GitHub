@@ -1,0 +1,289 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* Layout */
+/* line 4, ../sass/layout.scss */
+.contain {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* line 8, ../sass/layout.scss */
+.contain.breakout {
+  max-width: 1440px;
+}
+
+/**********/
+/* Respond, fluid layout */
+/* line 15, ../sass/layout.scss */
+.row {
+  clear: both;
+}
+/* line 17, ../sass/layout.scss */
+.row.negative-10 {
+  margin: 0 -10px;
+}
+/* line 19, ../sass/layout.scss */
+.row.negative-10 .even-pad {
+  margin: 0 10px;
+}
+/* line 23, ../sass/layout.scss */
+.row.negative-20 {
+  margin: 0 -20px;
+}
+/* line 25, ../sass/layout.scss */
+.row.negative-20 .even-pad {
+  margin: 0 20px;
+}
+/* line 29, ../sass/layout.scss */
+.row.negative-30 {
+  margin: 0 -30px;
+}
+/* line 31, ../sass/layout.scss */
+.row.negative-30 .even-pad {
+  margin: 0 30px;
+}
+/* line 35, ../sass/layout.scss */
+.row.negative-left-30 {
+  margin-left: -30px;
+  width: auto;
+}
+/* line 39, ../sass/layout.scss */
+.row.negative-right-10 {
+  margin-right: -10px;
+}
+
+/* line 43, ../sass/layout.scss */
+.no-bg .col {
+  filter: none;
+  background: none;
+}
+
+/* line 50, ../sass/layout.scss */
+.gutter-10 {
+  padding: 30px;
+}
+
+/* line 53, ../sass/layout.scss */
+.gutter-20 {
+  padding: 30px;
+}
+
+/* line 56, ../sass/layout.scss */
+.gutter-30 {
+  padding: 30px;
+}
+
+/* line 59, ../sass/layout.scss */
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col {
+  float: left;
+}
+
+/* line 73, ../sass/layout.scss */
+.one-col {
+  width: 8.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 76, ../sass/layout.scss */
+.two-col {
+  width: 16.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 79, ../sass/layout.scss */
+.three-col {
+  width: 25%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 82, ../sass/layout.scss */
+.four-col {
+  width: 33.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 85, ../sass/layout.scss */
+.five-col {
+  width: 41.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 88, ../sass/layout.scss */
+.six-col {
+  width: 50%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 91, ../sass/layout.scss */
+.seven-col {
+  width: 58.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 94, ../sass/layout.scss */
+.eight-col {
+  width: 66.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 97, ../sass/layout.scss */
+.nine-col {
+  width: 75%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 100, ../sass/layout.scss */
+.ten-col {
+  width: 83.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 103, ../sass/layout.scss */
+.eleven-col {
+  width: 91.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 106, ../sass/layout.scss */
+.twelve-col {
+  width: 100%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 109, ../sass/layout.scss */
+.thirteen-col {
+  width: 108.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 112, ../sass/layout.scss */
+.fourteen-col {
+  width: 116.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 115, ../sass/layout.scss */
+.fifteen-col {
+  width: 125%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 118, ../sass/layout.scss */
+.sixteen-col {
+  width: 133.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/*Offsets*/
+/* line 123, ../sass/layout.scss */
+.offby-one {
+  margin-left: 8.33333%;
+}
+
+/* line 126, ../sass/layout.scss */
+.offby-two {
+  margin-left: 16.66667%;
+}
+
+/* line 129, ../sass/layout.scss */
+.offby-three {
+  margin-left: 25%;
+}
+
+/* line 132, ../sass/layout.scss */
+.offby-four {
+  margin-left: 33.33333%;
+}
+
+/* line 135, ../sass/layout.scss */
+.offby-five {
+  margin-left: 41.66667%;
+}
+
+/* line 138, ../sass/layout.scss */
+.offby-six {
+  margin-left: 50%;
+}
+
+/* line 141, ../sass/layout.scss */
+.offby-seven {
+  margin-left: 58.33333%;
+}
+
+/* line 144, ../sass/layout.scss */
+.offby-eight {
+  margin-left: 66.66667%;
+}
+
+/* line 147, ../sass/layout.scss */
+.offby-nine {
+  margin-left: 75%;
+}
+
+/* line 150, ../sass/layout.scss */
+.offby-ten {
+  margin-left: 83.33333%;
+}
+
+/* line 153, ../sass/layout.scss */
+.offby-eleven {
+  margin-left: 91.66667%;
+}
+
+/* line 156, ../sass/layout.scss */
+.offby-twelve {
+  margin-left: 100%;
+}
+
+/* line 159, ../sass/layout.scss */
+.offby-thirteen {
+  margin-left: 108.33333%;
+}
+
+/* line 162, ../sass/layout.scss */
+.offby-fourteen {
+  margin-left: 116.66667%;
+}
+
+/* line 165, ../sass/layout.scss */
+.offby-fifteen {
+  margin-left: 125%;
+}

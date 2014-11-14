@@ -1,0 +1,110 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/tooltips.scss */
+.info {
+  background: url("../images/info-icon.png") no-repeat right 5px;
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 8, ../sass/tooltips.scss */
+.info:hover {
+  text-decoration: none;
+}
+/* line 10, ../sass/tooltips.scss */
+.info:hover .tooltip {
+  display: block;
+}
+/* line 14, ../sass/tooltips.scss */
+.info .tooltip {
+  background: #eaeaea;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  display: none;
+  padding: 10px;
+  position: absolute;
+  right: -10px;
+  width: 280px;
+  z-index: 2;
+}
+/* line 27, ../sass/tooltips.scss */
+.info.tool-bottom .tooltip:after {
+  border-bottom: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 6px;
+  top: -10px;
+  width: 0;
+}
+/* line 39, ../sass/tooltips.scss */
+.info.tool-right .tooltip {
+  right: -294px;
+  top: -5px;
+}
+/* line 42, ../sass/tooltips.scss */
+.info.tool-right .tooltip:after {
+  border-right: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  width: 0;
+}
+/* line 54, ../sass/tooltips.scss */
+.info.tool-left .tooltip {
+  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  left: -294px;
+  top: -4px;
+}
+/* line 58, ../sass/tooltips.scss */
+.info.tool-left .tooltip:after {
+  border-left: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -10px;
+  top: 6px;
+  width: 0;
+}
+/* line 70, ../sass/tooltips.scss */
+.info.tool-top .tooltip {
+  bottom: 38px;
+  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 73, ../sass/tooltips.scss */
+.info.tool-top .tooltip:after {
+  border-top: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 7px;
+  width: 0;
+}

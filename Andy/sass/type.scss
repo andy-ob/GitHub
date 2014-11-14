@@ -1,0 +1,37 @@
+@import "global-variables";
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primaryColor;
+  font-weight: 200;
+  line-height: 1em;
+  margin: 0;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.75em;}
+h3 {font-size: 1.625em; margin-bottom: 30px;}
+h4 {font-size: 1.375em; margin-bottom: 20px;}
+h5 {font-size: 1.125em;}
+h6 {font-size: 1em;}
+
+a {
+  text-decoration: none;
+  color: $tertiaryColor;
+  @include transition(all ease-in-out 0.2s);
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0 0 2.8125em 0;
+  font-size: 1.25em;
+    font-weight: 100;
+    line-height: $ratio + em;
+}
+
+.icon {
+  i {
+    font-size: 3em;
+  }
+}

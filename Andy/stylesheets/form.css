@@ -1,0 +1,50 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/form.scss */
+input, label, textarea {
+  display: block;
+  width: 100%;
+}
+
+/* line 7, ../sass/form.scss */
+input, textarea, select {
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* line 13, ../sass/form.scss */
+input[type='checkbox'], input[type='radio'] {
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+/* line 19, ../sass/form.scss */
+input[type='checkbox'] + label, input[type='radio'] + label {
+  padding-left: 20px;
+}
+
+/* line 23, ../sass/form.scss */
+button {
+  border: none;
+  margin-top: 20px;
+}
+
+/* line 27, ../sass/form.scss */
+.frmRow {
+  margin-bottom: 10px;
+  position: relative;
+}
