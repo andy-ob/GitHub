@@ -103,14 +103,42 @@
   html {
     font-size: 50%;
   }
-  .menu-trigger {
-    right: 20px;
+	.menu-trigger {
+	  height: 30px;
+	padding: 5px;
+		right: 20px;
+    top: 16px;
+	  width: 30px;
+	  span {
+	  	height: 2px;
+		  margin: 9px auto;
+	  	width: 20px;
+		  &:before, &::before {
+		  	height: 2px;
+			  top: -9px;
+		  }
+		  &:after, &::after {
+		 	height: 2px;
+			  bottom: -9px;
+		  }
+	  }
+	  &.open {
+	  	span {
+			&:before, &::before {
+				@include transform(rotate(45deg) translate(7px, 6px));
+			}
+			&:after, &::after {
+				@include transform(rotate(-45deg) translate(6px, -6px));
+			}
+		}
+	  }
   }
   #leadNav {
     padding-top: 80px;
     .subNavTrigger {
-      height: 40px;
+      height: 35px;
       padding-top: 18px;
+	  width: 25px;
     }
   }
   .col {
@@ -160,35 +188,6 @@
   }
   #logo {
     padding: 10px;
-  }
-  .menu-trigger {
-	  height: 30px;
-	padding: 5px;
-    top: 16px;
-	  width: 30px;
-	  span {
-	  	height: 2px;
-		  margin: 11px auto;
-	  	width: 30px;
-		  &:before, &::before {
-		  	height: 2px;
-			  top: -11px;
-		  }
-		  &:after, &::after {
-		 	height: 2px;
-			  bottom: -11px;
-		  }
-	  }
-	  &.open {
-	  	span {
-			&:before, &::before {
-				@include transform(rotate(45deg) translate(5px, 10px));
-			}
-			&:after, &::after {
-				@include transform(rotate(-45deg) translate(5px, -10px));
-			}
-		}
-	  }
   }
   #leadNav {
     padding-top: 68px;
