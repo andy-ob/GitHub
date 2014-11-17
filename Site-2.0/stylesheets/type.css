@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #323A45;
   font-weight: 200;
   line-height: 1.61803em;
-  margin: 0;
+  margin: 0 0 1.61803em 0;
 }
 
 /* line 7, ../sass/type.scss */
@@ -44,17 +44,7 @@ h6 {
   font-size: 0.75em;
 }
 
-/* line 23, ../sass/type.scss */
-h3 {
-  margin-bottom: 30px;
-}
-
-/* line 27, ../sass/type.scss */
-h4 {
-  margin-bottom: 20px;
-}
-
-/* line 31, ../sass/type.scss */
+/* line 30, ../sass/type.scss */
 a {
   text-decoration: none;
   color: #c1d72e;
@@ -63,17 +53,17 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 35, ../sass/type.scss */
+/* line 34, ../sass/type.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
 
-/* line 40, ../sass/type.scss */
+/* line 39, ../sass/type.scss */
 p {
-  margin: 0 0 2.8125em 0;
+  margin: 0 0 1.61803em 0;
 }
 
-/* line 45, ../sass/type.scss */
+/* line 44, ../sass/type.scss */
 .icon i {
   font-size: 3em;
 }
