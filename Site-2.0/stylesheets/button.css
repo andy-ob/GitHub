@@ -8,21 +8,21 @@
 /*Layout */
 /* line 9, ../sass/button.scss */
 .btn {
-  background: #323a45;
-  color: white;
+  background: #323A45;
+  color: #fff;
   display: inline-block;
   padding: 0.625em 1.875em;
 }
 /* line 11, ../sass/button.scss */
 .btn:hover {
   background: #c1d72e;
-  color: #323a45;
+  color: #323A45;
   text-decoration: none;
 }
 /* line 19, ../sass/button.scss */
 .btn.alt {
   background: #bababa;
-  color: white;
+  color: #fff;
   display: inline-block;
   padding: 0.625em 1.875em;
 }

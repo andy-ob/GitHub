@@ -24,13 +24,11 @@
 /* line 14, ../sass/tooltips.scss */
 .info .tooltip {
   background: #eaeaea;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #d8d8d8;
   display: none;
@@ -71,8 +69,8 @@
 }
 /* line 54, ../sass/tooltips.scss */
 .info.tool-left .tooltip {
-  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   left: -294px;
   top: -4px;
@@ -92,8 +90,8 @@
 /* line 70, ../sass/tooltips.scss */
 .info.tool-top .tooltip {
   bottom: 38px;
-  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
 }
 /* line 73, ../sass/tooltips.scss */

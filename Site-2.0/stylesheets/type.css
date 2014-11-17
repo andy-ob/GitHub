@@ -8,7 +8,7 @@
 /*Layout */
 /* line 14, ../sass/type.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #323a45;
+  color: #323A45;
   font-weight: 200;
   line-height: 1.61803em;
   margin: 0;
@@ -58,11 +58,10 @@ h4 {
 a {
   text-decoration: none;
   color: #c1d72e;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 /* line 35, ../sass/type.scss */
 a:hover, a:focus {

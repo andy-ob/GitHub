@@ -296,7 +296,7 @@ $(function () {
 					top: 0
 				});
 			} else {
-				$('#imagecontain').height(600);
+				//$('#imagecontain').height(600);
 				$(img).css({
 					top: -toppos
 				});
@@ -314,7 +314,7 @@ $(function () {
 				}
 				toppos = (imgheight - containheight) / 2;
 				if (imgheight < containheight) {
-					$('#imagecontain').height(imgheight);
+					//$('#imagecontain').height(imgheight);
 					if ($(img).length > 1) {
 						for (var i = 0; i < $(img).length; i++) {
 							$(img[i]).css({
@@ -327,7 +327,7 @@ $(function () {
 						});
 					}
 				} else {
-					$('#imagecontain').height(600);
+					//$('#imagecontain').height(600);
 					if ($(img).length > 1) {
 						for (var i = 0; i < $(img).length; i++) {
 							$(img[i]).css({

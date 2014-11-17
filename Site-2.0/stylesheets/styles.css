@@ -1,11 +1,11 @@
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, ../sass/normalize.scss */
+/* line 11, ../sass/normalize.scss */
 article,
 aside,
 details,
@@ -24,7 +24,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, ../sass/normalize.scss */
+/* line 30, ../sass/normalize.scss */
 audio,
 canvas,
 video {
@@ -89,7 +89,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, ../sass/normalize.scss */
+/* line 94, ../sass/normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -119,7 +119,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 126, ../sass/normalize.scss */
+/* line 125, ../sass/normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -155,7 +155,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 164, ../sass/normalize.scss */
+/* line 161, ../sass/normalize.scss */
 code,
 kbd,
 pre,
@@ -191,7 +191,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 198, ../sass/normalize.scss */
+/* line 197, ../sass/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -270,7 +270,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 278, ../sass/normalize.scss */
+/* line 275, ../sass/normalize.scss */
 button,
 input,
 select,
@@ -287,7 +287,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 290, ../sass/normalize.scss */
+/* line 289, ../sass/normalize.scss */
 button,
 input {
   line-height: normal;
@@ -299,7 +299,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 302, ../sass/normalize.scss */
+/* line 301, ../sass/normalize.scss */
 button,
 select {
   text-transform: none;
@@ -312,7 +312,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 317, ../sass/normalize.scss */
+/* line 314, ../sass/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -326,7 +326,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 327, ../sass/normalize.scss */
+/* line 326, ../sass/normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -336,7 +336,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 337, ../sass/normalize.scss */
+/* line 336, ../sass/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -364,7 +364,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 361, ../sass/normalize.scss */
+/* line 360, ../sass/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -373,7 +373,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 370, ../sass/normalize.scss */
+/* line 369, ../sass/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -404,7 +404,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 2, ../sass/clearfix.scss */
+/* line 1, ../sass/clearfix.scss */
 .cf:before,
 .cf:after, .row:before, .row:after {
   content: " ";
@@ -458,7 +458,7 @@ html {
 /* line 14, ../sass/base.scss */
 body {
   background: #f0f0ec;
-  color: #323a45;
+  color: #323A45;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   height: 100%;
@@ -476,7 +476,7 @@ body {
 
 /* line 32, ../sass/base.scss */
 #preload {
-  background: #323a45;
+  background: #323A45;
   bottom: 0;
   left: 0;
   position: fixed;
@@ -510,7 +510,7 @@ body {
 /*Layout */
 /* line 14, ../sass/type.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #323a45;
+  color: #323A45;
   font-weight: 200;
   line-height: 1.61803em;
   margin: 0;
@@ -560,11 +560,10 @@ h4 {
 a {
   text-decoration: none;
   color: #c1d72e;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 /* line 35, ../sass/type.scss */
 a:hover, a:focus {
@@ -654,21 +653,21 @@ legend {
 /*Layout */
 /* line 9, ../sass/button.scss */
 .btn {
-  background: #323a45;
-  color: white;
+  background: #323A45;
+  color: #fff;
   display: inline-block;
   padding: 0.625em 1.875em;
 }
 /* line 11, ../sass/button.scss */
 .btn:hover {
   background: #c1d72e;
-  color: #323a45;
+  color: #323A45;
   text-decoration: none;
 }
 /* line 19, ../sass/button.scss */
 .btn.alt {
   background: #bababa;
-  color: white;
+  color: #fff;
   display: inline-block;
   padding: 0.625em 1.875em;
 }
@@ -703,12 +702,10 @@ input, label, textarea, select {
 
 /* line 7, ../sass/form.scss */
 input, textarea, select {
-  background: white;
+  background: #ffffff;
   border: 0;
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
   padding: 10px;
 }
@@ -737,11 +734,10 @@ input[type='checkbox'] + label, input[type='radio'] + label {
 
 /* line 29, ../sass/form.scss */
 input[type='submit'] {
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* line 32, ../sass/form.scss */
@@ -820,13 +816,11 @@ button {
 /* line 14, ../sass/tooltips.scss */
 .info .tooltip {
   background: #eaeaea;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #d8d8d8;
   display: none;
@@ -867,8 +861,8 @@ button {
 }
 /* line 54, ../sass/tooltips.scss */
 .info.tool-left .tooltip {
-  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
   left: -294px;
   top: -4px;
@@ -888,8 +882,8 @@ button {
 /* line 70, ../sass/tooltips.scss */
 .info.tool-top .tooltip {
   bottom: 38px;
-  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
   box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
 }
 /* line 73, ../sass/tooltips.scss */
@@ -1309,261 +1303,183 @@ section {
   }
 }
 @-webkit-keyframes fadeIn {
-  /* line 97, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 101, ../sass/animations.scss */
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
-  /* line 107, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 110, ../sass/animations.scss */
   100% {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes elementUp {
-  /* line 118, ../sass/animations.scss */
   20% {
     opacity: 1;
   }
-
-  /* line 121, ../sass/animations.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @keyframes elementUp {
-  /* line 128, ../sass/animations.scss */
   20% {
     opacity: 1;
   }
-
-  /* line 131, ../sass/animations.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 }
-
 @-webkit-keyframes fadeScale {
-  /* line 139, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 142, ../sass/animations.scss */
   70% {
     opacity: 1;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }
-
-  /* line 147, ../sass/animations.scss */
   85% {
     opacity: 1;
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 152, ../sass/animations.scss */
   95% {
     opacity: 1;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
   }
-
-  /* line 157, ../sass/animations.scss */
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
 }
-
 @keyframes fadeScale {
-  /* line 164, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 167, ../sass/animations.scss */
   70% {
     opacity: 1;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }
-
-  /* line 172, ../sass/animations.scss */
   85% {
     opacity: 1;
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 177, ../sass/animations.scss */
   95% {
     opacity: 1;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
   }
-
-  /* line 182, ../sass/animations.scss */
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
 }
-
 @-webkit-keyframes faderotate360 {
-  /* line 190, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 193, ../sass/animations.scss */
   35% {
     opacity: 1;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }
-
-  /* line 198, ../sass/animations.scss */
   42% {
     opacity: 1;
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 203, ../sass/animations.scss */
   45% {
     opacity: 1;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
   }
-
-  /* line 208, ../sass/animations.scss */
   50% {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 212, ../sass/animations.scss */
   51% {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
   }
-
-  /* line 216, ../sass/animations.scss */
   100% {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
   }
 }
-
 @keyframes faderotate360 {
-  /* line 223, ../sass/animations.scss */
   0% {
     opacity: 0;
   }
-
-  /* line 226, ../sass/animations.scss */
   35% {
     opacity: 1;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }
-
-  /* line 231, ../sass/animations.scss */
   42% {
     opacity: 1;
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 236, ../sass/animations.scss */
   45% {
     opacity: 1;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
   }
-
-  /* line 241, ../sass/animations.scss */
   50% {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-
-  /* line 245, ../sass/animations.scss */
   51% {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
   }
-
-  /* line 249, ../sass/animations.scss */
   100% {
     transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
   }
 }
-
 @-webkit-keyframes rotateXY {
-  /* line 257, ../sass/animations.scss */
   0% {
     transform: rotateX(-15deg) rotateY(-15deg);
     -webkit-transform: rotateX(-15deg) rotateY(-15deg);
   }
-
-  /* line 261, ../sass/animations.scss */
   33% {
     transform: rotateX(-315deg) rotateY(-15deg);
     -webkit-transform: rotateX(-315deg) rotateY(-15deg);
   }
-
-  /* line 265, ../sass/animations.scss */
   66% {
     transform: rotateY(-315deg) rotateY(-315deg);
     -webkit-transform: rotateX(-315deg) rotateY(-315deg);
   }
-
-  /* line 269, ../sass/animations.scss */
   100% {
     transform: rotateY(-15deg) rotateY(-15deg);
     -webkit-transform: rotateX(-15deg) rotateY(-15deg);
   }
 }
-
 @keyframes rotateXY {
-  /* line 275, ../sass/animations.scss */
   0% {
     transform: rotateX(-15deg) rotateY(-15deg);
     -webkit-transform: rotateX(-15deg) rotateY(-15deg);
   }
-
-  /* line 279, ../sass/animations.scss */
   66% {
     transform: rotateY(-315deg) rotateY(-315deg);
     -webkit-transform: rotateX(-315deg) rotateY(-315deg);
   }
-
-  /* line 283, ../sass/animations.scss */
   100% {
     transform: rotateY(-15deg) rotateY(-15deg);
     -webkit-transform: rotateX(-15deg) rotateY(-15deg);
   }
 }
-
 /* line 290, ../sass/animations.scss */
 .parallax-block {
   overflow: hidden;
@@ -1587,11 +1503,578 @@ section {
 /* Alt button styles */
 /*Generic styles*/
 /*Layout */
+/* line 4, ../sass/icons.scss */
+#services {
+    /*.big-cog {
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-animation: rotateA 5s ease infinite;
+        -moz-animation: rotateA 5s ease infinite;
+        -o-animation: rotateA 5s ease infinite;
+        animation: rotateA 5s ease infinite;
+    }
+
+    .wee-cog {
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-animation: rotateB 5s ease infinite;
+        -moz-animation: rotateB 5s ease infinite;
+        -o-animation: rotateB 5s ease infinite;
+        animation: rotateB 5s ease infinite;
+    }
+
+    @-webkit-keyframes rotateA {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotateA {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotateB {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }
+
+    @keyframes rotateB {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }*/
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(1) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.25s infinite;
+  -o-animation: stars 2s 0.25s infinite;
+  -webkit-animation: stars 2s 0.25s infinite;
+  animation: stars 2s 0.25s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(2) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.5s infinite;
+  -o-animation: stars 2s 0.5s infinite;
+  -webkit-animation: stars 2s 0.5s infinite;
+  animation: stars 2s 0.5s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(3) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.75s infinite;
+  -o-animation: stars 2s 0.75s infinite;
+  -webkit-animation: stars 2s 0.75s infinite;
+  animation: stars 2s 0.75s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(4) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1s infinite;
+  -o-animation: stars 2s 1s infinite;
+  -webkit-animation: stars 2s 1s infinite;
+  animation: stars 2s 1s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(5) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.25s infinite;
+  -o-animation: stars 2s 1.25s infinite;
+  -webkit-animation: stars 2s 1.25s infinite;
+  animation: stars 2s 1.25s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(6) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.5s infinite;
+  -o-animation: stars 2s 1.5s infinite;
+  -webkit-animation: stars 2s 1.5s infinite;
+  animation: stars 2s 1.5s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(7) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.75s infinite;
+  -o-animation: stars 2s 1.75s infinite;
+  -webkit-animation: stars 2s 1.75s infinite;
+  animation: stars 2s 1.75s infinite;
+}
+/* line 21, ../sass/icons.scss */
+#services .wand {
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  -moz-animation: wand 2s ease infinite;
+  -o-animation: wand 2s ease infinite;
+  -webkit-animation: wand 2s ease infinite;
+  animation: wand 2s ease infinite;
+}
+@-webkit-keyframes stars {
+  0% {
+    -moz-transform: rotate(0) scale(0);
+    -ms-transform: rotate(0) scale(0);
+    -webkit-transform: rotate(0) scale(0);
+    transform: rotate(0) scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: rotate(180deg) scale(1);
+    -ms-transform: rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes stars {
+  0% {
+    -moz-transform: rotate(0) scale(0);
+    -ms-transform: rotate(0) scale(0);
+    -webkit-transform: rotate(0) scale(0);
+    transform: rotate(0) scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: rotate(180deg) scale(1);
+    -ms-transform: rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes wand {
+  0% {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  /*100% {
+      @include transform(rotate(-1deg));
+  }*/
+  /*75% {
+      @include transform(rotate(0));
+  }*/
+}
+@keyframes wand {
+  0% {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  /*100% {
+      @include transform(rotate(-1deg));
+  }*/
+  /*75% {
+      @include transform(rotate(0));
+  }*/
+}
+/* line 98, ../sass/icons.scss */
+#services .cogs {
+  position: relative;
+  width: 70px;
+  height: 120px;
+  margin: 0 auto;
+}
+/* line 105, ../sass/icons.scss */
+#services .big-cog {
+  -moz-transform-origin: center center 50%;
+  -ms-transform-origin: center center 50%;
+  -webkit-transform-origin: center center 50%;
+  transform-origin: center center 50%;
+  -moz-animation: rotateA 5s ease infinite;
+  -webkit-animation: rotateA 5s ease infinite;
+  animation: rotateA 5s ease infinite;
+}
+/* line 110, ../sass/icons.scss */
+#services .wee-cog {
+  -moz-transform-origin: center center 50%;
+  -ms-transform-origin: center center 50%;
+  -webkit-transform-origin: center center 50%;
+  transform-origin: center center 50%;
+  -moz-animation: rotateB 5s ease infinite;
+  -webkit-animation: rotateB 5s ease infinite;
+  animation: rotateB 5s ease infinite;
+  position: absolute;
+  left: 55%;
+  bottom: 5px;
+  width: 50px;
+}
+@-webkit-keyframes rotateA {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotateA {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes rotateB {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateB {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes colorA {
+  0% {
+    fill: #323A45;
+  }
+  50% {
+    fill: #c1d72e;
+  }
+}
+@keyframes colorA {
+  0% {
+    fill: #323A45;
+  }
+  50% {
+    fill: #c1d72e;
+  }
+}
+@-webkit-keyframes colorB {
+  0% {
+    fill: #c1d72e;
+  }
+  50% {
+    fill: #323A45;
+  }
+}
+@keyframes colorB {
+  0% {
+    fill: #c1d72e;
+  }
+  50% {
+    fill: #323A45;
+  }
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(1) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.25s infinite;
+  -moz-animation: bubbles 2.5s 0.25s infinite;
+  -o-animation: bubbles 2.5s 0.25s infinite;
+  animation: bubbles 2.5s 0.25s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(2) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.5s infinite;
+  -moz-animation: bubbles 2.5s 0.5s infinite;
+  -o-animation: bubbles 2.5s 0.5s infinite;
+  animation: bubbles 2.5s 0.5s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(3) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.75s infinite;
+  -moz-animation: bubbles 2.5s 0.75s infinite;
+  -o-animation: bubbles 2.5s 0.75s infinite;
+  animation: bubbles 2.5s 0.75s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(4) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1s infinite;
+  -moz-animation: bubbles 2.5s 1s infinite;
+  -o-animation: bubbles 2.5s 1s infinite;
+  animation: bubbles 2.5s 1s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(5) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.25s infinite;
+  -moz-animation: bubbles 2.5s 1.25s infinite;
+  -o-animation: bubbles 2.5s 1.25s infinite;
+  animation: bubbles 2.5s 1.25s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(6) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.5s infinite;
+  -moz-animation: bubbles 2.5s 1.5s infinite;
+  -o-animation: bubbles 2.5s 1.5s infinite;
+  animation: bubbles 2.5s 1.5s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(7) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.75s infinite;
+  -moz-animation: bubbles 2.5s 1.75s infinite;
+  -o-animation: bubbles 2.5s 1.75s infinite;
+  animation: bubbles 2.5s 1.75s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(8) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 2s infinite;
+  -moz-animation: bubbles 2.5s 2s infinite;
+  -o-animation: bubbles 2.5s 2s infinite;
+  animation: bubbles 2.5s 2s infinite;
+}
+@-webkit-keyframes bubbles {
+  0% {
+    -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
+    -moz-transform: scale(0.6) translate3d(50px, 0, 0);
+    -ms-transform: scale(0.6) translate3d(50px, 0, 0);
+    -o-transform: scale(0.6) translate3d(50px, 0, 0);
+    transform: scale(0.6) translate3d(50px, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -o-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    transform: scale(1.25) translate3d(-5px, -5px, 0);
+  }
+}
+@keyframes bubbles {
+  0% {
+    -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
+    -moz-transform: scale(0.6) translate3d(50px, 0, 0);
+    -ms-transform: scale(0.6) translate3d(50px, 0, 0);
+    -o-transform: scale(0.6) translate3d(50px, 0, 0);
+    transform: scale(0.6) translate3d(50px, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -o-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    transform: scale(1.25) translate3d(-5px, -5px, 0);
+  }
+}
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
 /* line 3, ../sass/header.scss */
 header {
-  background: #323a45;
-  -webkit-box-shadow: 2px 2px 4px #888888;
+  background: #323A45;
   -moz-box-shadow: 2px 2px 4px #888888;
+  -webkit-box-shadow: 2px 2px 4px #888888;
   box-shadow: 2px 2px 4px #888888;
   position: relative;
 }
@@ -1607,31 +2090,41 @@ header {
 
 /* line 15, ../sass/header.scss */
 .menu-trigger {
+  background: rgba(50, 58, 69, 0.7);
+  border-radius: 3px;
   display: block;
-  height: 30px;
+  height: 50px;
   overflow: hidden;
   position: fixed;
-  right: 50px;
-  top: 35px;
-  width: 50px;
+  right: 40px;
+  top: 25px;
+  width: 60px;
+  padding: 10px;
   z-index: 999;
 }
-/* line 24, ../sass/header.scss */
+/* line 27, ../sass/header.scss */
 .menu-trigger span {
   background: white;
   display: block;
+  width: 40px;
   height: 4px;
-  margin: 13px 0;
+  margin: 13px auto;
   position: relative;
   text-indent: 100%;
   white-space: nowrap;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 33, ../sass/header.scss */
+/* line 37, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span:after {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 40, ../sass/header.scss */
 .menu-trigger span:before, .menu-trigger span::before {
   background: white;
   content: "";
@@ -1641,7 +2134,7 @@ header {
   top: -13px;
   width: 100%;
 }
-/* line 42, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 .menu-trigger span:after, .menu-trigger span::after {
   background: white;
   content: "";
@@ -1651,34 +2144,30 @@ header {
   bottom: -13px;
   width: 100%;
 }
-/* line 53, ../sass/header.scss */
+/* line 61, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:before {
+  -webkit-animation: menuHoverB .3s linear;
+  animation: menuHoverB .3s linear;
+}
+/* line 65, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:after {
+  -webkit-animation: menuHoverA .3s linear;
+  animation: menuHoverA .3s linear;
+}
+/* line 73, ../sass/header.scss */
 .menu-trigger.open span {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+  background: transparent;
 }
-/* line 55, ../sass/header.scss */
-.menu-trigger.open span::before {
-  top: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+/* line 75, ../sass/header.scss */
+.menu-trigger.open span:before {
+  transform: rotate(45deg) translate(10px, 8px);
 }
-/* line 59, ../sass/header.scss */
-.menu-trigger.open span::after {
-  bottom: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+/* line 78, ../sass/header.scss */
+.menu-trigger.open span:after {
+  transform: rotate(-45deg) translate(10px, -8px);
 }
 
-/* line 66, ../sass/header.scss */
+/* line 84, ../sass/header.scss */
 #leadNav {
   background: #323a45;
   height: 100%;
@@ -1689,47 +2178,47 @@ header {
   width: 300px;
   z-index: 990;
 }
-/* line 75, ../sass/header.scss */
+/* line 93, ../sass/header.scss */
 #leadNav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 80, ../sass/header.scss */
+/* line 98, ../sass/header.scss */
 #leadNav li {
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 84, ../sass/header.scss */
+/* line 102, ../sass/header.scss */
 #leadNav li a {
-  color: white;
+  color: #ffffff;
   display: block;
   font-weight: 300;
   padding: 20px 50px;
 }
-/* line 89, ../sass/header.scss */
+/* line 107, ../sass/header.scss */
 #leadNav li a:hover, #leadNav li a.active {
   background: #c1d72e;
-  color: #323a45;
+  color: #323A45;
   text-decoration: none;
 }
-/* line 96, ../sass/header.scss */
+/* line 114, ../sass/header.scss */
 #leadNav .subNav {
   background: #c1d72e;
   height: 0;
   margin-left: 20px;
   overflow: hidden;
 }
-/* line 103, ../sass/header.scss */
+/* line 121, ../sass/header.scss */
 #leadNav .subNav li a:hover {
-  background: white;
+  background: #ffffff;
 }
-/* line 106, ../sass/header.scss */
+/* line 124, ../sass/header.scss */
 #leadNav .subNav li a.active {
-  background: white;
+  background: #ffffff;
 }
-/* line 112, ../sass/header.scss */
+/* line 130, ../sass/header.scss */
 #leadNav .subNavTrigger {
   height: 65px;
   overflow: hidden;
@@ -1741,23 +2230,22 @@ header {
   white-space: nowrap;
   width: 30px;
 }
-/* line 122, ../sass/header.scss */
+/* line 140, ../sass/header.scss */
 #leadNav .subNavTrigger:hover {
   background: none;
 }
-/* line 125, ../sass/header.scss */
+/* line 143, ../sass/header.scss */
 #leadNav .subNavTrigger span {
   background: white;
   display: block;
   height: 2px;
   position: relative;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 131, ../sass/header.scss */
+/* line 149, ../sass/header.scss */
 #leadNav .subNavTrigger span:after, #leadNav .subNavTrigger span::after {
   background: white;
   content: "";
@@ -1769,13 +2257,13 @@ header {
   -webkit-transform: rotate(90deg);
   width: 100%;
 }
-/* line 144, ../sass/header.scss */
+/* line 162, ../sass/header.scss */
 #leadNav .subNavTrigger.open span {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-/* line 153, ../sass/header.scss */
+/* line 171, ../sass/header.scss */
 #logo-home {
   height: 246px;
   left: 50%;
@@ -1786,7 +2274,7 @@ header {
   top: 50%;
   width: 600px;
 }
-/* line 162, ../sass/header.scss */
+/* line 180, ../sass/header.scss */
 #logo-home .strap {
   color: #919496;
   font-size: 2em;
@@ -1833,18 +2321,15 @@ footer {
 }
 /* line 22, ../sass/footer.scss */
 #footernav ul a {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   color: #D0DBE2;
   display: block;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.3s;
-  -moz-transition: all ease-in-out 0.3s;
-  -o-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /* line 28, ../sass/footer.scss */
 #footernav ul a i {
@@ -1858,7 +2343,7 @@ footer {
 /* line 36, ../sass/footer.scss */
 #footernav ul a:hover {
   background-color: #c1d72e;
-  color: white;
+  color: #ffffff;
 }
 
 /* line 46, ../sass/footer.scss */

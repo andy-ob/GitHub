@@ -129,60 +129,59 @@
   /* line 106, ../sass/media-queries.scss */
   .menu-trigger {
     right: 20px;
-    width: 35px;
   }
 
-  /* line 110, ../sass/media-queries.scss */
+  /* line 109, ../sass/media-queries.scss */
   #leadNav {
     padding-top: 80px;
   }
-  /* line 112, ../sass/media-queries.scss */
+  /* line 111, ../sass/media-queries.scss */
   #leadNav .subNavTrigger {
     height: 40px;
     padding-top: 18px;
   }
 
-  /* line 117, ../sass/media-queries.scss */
+  /* line 116, ../sass/media-queries.scss */
   .col {
     float: none;
     width: 100%;
   }
 
-  /* line 121, ../sass/media-queries.scss */
+  /* line 120, ../sass/media-queries.scss */
   div[class*="offby"] {
     margin-left: 0;
   }
 
-  /* line 125, ../sass/media-queries.scss */
+  /* line 124, ../sass/media-queries.scss */
   .row.negative-10, .row.negative-20, .row.negative-30 {
     margin: 0;
   }
-  /* line 127, ../sass/media-queries.scss */
+  /* line 126, ../sass/media-queries.scss */
   .row.negative-10 .even-pad, .row.negative-20 .even-pad, .row.negative-30 .even-pad {
     margin: 0;
   }
-  /* line 131, ../sass/media-queries.scss */
+  /* line 130, ../sass/media-queries.scss */
   .row .even-pad {
     margin: 0;
   }
 
-  /* line 135, ../sass/media-queries.scss */
+  /* line 134, ../sass/media-queries.scss */
   .listing-item {
     height: 240px;
   }
 
-  /* line 139, ../sass/media-queries.scss */
+  /* line 138, ../sass/media-queries.scss */
   #portfolio-item .parallax-block {
     height: 500px;
   }
 }
 @media all and (max-width: 479px) {
-  /* line 145, ../sass/media-queries.scss */
+  /* line 144, ../sass/media-queries.scss */
   .contain {
     padding: 0 5px;
   }
 
-  /* line 148, ../sass/media-queries.scss */
+  /* line 147, ../sass/media-queries.scss */
   #logo-home {
     left: 0;
     margin: 0;
@@ -191,31 +190,64 @@
     top: 0;
     width: 300px;
   }
-  /* line 155, ../sass/media-queries.scss */
+  /* line 154, ../sass/media-queries.scss */
   #logo-home img {
     width: 160px;
   }
-  /* line 158, ../sass/media-queries.scss */
+  /* line 157, ../sass/media-queries.scss */
   #logo-home .strap {
     display: none;
   }
 
-  /* line 162, ../sass/media-queries.scss */
+  /* line 161, ../sass/media-queries.scss */
   #logo {
     padding: 10px;
   }
 
-  /* line 165, ../sass/media-queries.scss */
+  /* line 164, ../sass/media-queries.scss */
   .menu-trigger {
-    top: 20px;
+    height: 30px;
+    padding: 5px;
+    top: 16px;
+    width: 30px;
+  }
+  /* line 169, ../sass/media-queries.scss */
+  .menu-trigger span {
+    height: 2px;
+    margin: 11px auto;
+    width: 30px;
+  }
+  /* line 173, ../sass/media-queries.scss */
+  .menu-trigger span:before, .menu-trigger span::before {
+    height: 2px;
+    top: -11px;
+  }
+  /* line 177, ../sass/media-queries.scss */
+  .menu-trigger span:after, .menu-trigger span::after {
+    height: 2px;
+    bottom: -11px;
+  }
+  /* line 184, ../sass/media-queries.scss */
+  .menu-trigger.open span:before, .menu-trigger.open span::before {
+    -moz-transform: rotate(45deg) translate(5px, 10px);
+    -ms-transform: rotate(45deg) translate(5px, 10px);
+    -webkit-transform: rotate(45deg) translate(5px, 10px);
+    transform: rotate(45deg) translate(5px, 10px);
+  }
+  /* line 187, ../sass/media-queries.scss */
+  .menu-trigger.open span:after, .menu-trigger.open span::after {
+    -moz-transform: rotate(-45deg) translate(5px, -10px);
+    -ms-transform: rotate(-45deg) translate(5px, -10px);
+    -webkit-transform: rotate(-45deg) translate(5px, -10px);
+    transform: rotate(-45deg) translate(5px, -10px);
   }
 
-  /* line 168, ../sass/media-queries.scss */
+  /* line 193, ../sass/media-queries.scss */
   #leadNav {
     padding-top: 68px;
   }
 
-  /* line 172, ../sass/media-queries.scss */
+  /* line 197, ../sass/media-queries.scss */
   #portfolio-item .parallax-block {
     height: 280px;
   }

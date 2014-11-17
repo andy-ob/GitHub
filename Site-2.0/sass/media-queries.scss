@@ -105,7 +105,6 @@
   }
   .menu-trigger {
     right: 20px;
-    width: 35px;
   }
   #leadNav {
     padding-top: 80px;
@@ -163,7 +162,33 @@
     padding: 10px;
   }
   .menu-trigger {
-    top: 20px;
+	  height: 30px;
+	padding: 5px;
+    top: 16px;
+	  width: 30px;
+	  span {
+	  	height: 2px;
+		  margin: 11px auto;
+	  	width: 30px;
+		  &:before, &::before {
+		  	height: 2px;
+			  top: -11px;
+		  }
+		  &:after, &::after {
+		 	height: 2px;
+			  bottom: -11px;
+		  }
+	  }
+	  &.open {
+	  	span {
+			&:before, &::before {
+				@include transform(rotate(45deg) translate(5px, 10px));
+			}
+			&:after, &::after {
+				@include transform(rotate(-45deg) translate(5px, -10px));
+			}
+		}
+	  }
   }
   #leadNav {
     padding-top: 68px;

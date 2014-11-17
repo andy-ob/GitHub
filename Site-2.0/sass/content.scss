@@ -27,11 +27,15 @@
 //Image contain
 #imagecontain {
    height: 600px;
+   height: 77vh;
    overflow: hidden;
    position: relative;
    img {
      position: relative;
    }
+	@media all and (max-width: 1130px) {
+        height: auto;
+    }
 }
 
 //Carousel mask
@@ -128,6 +132,34 @@
 //Services block
 #services {
   text-align: center;
+}
+
+.icon-fill {
+    list-style: none;
+
+    li {
+        position: relative;
+        z-index: 2;
+        margin-left: 250px;
+
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 270px;
+            right: 100%;
+            z-index: 2;
+        }
+
+        &:before {
+            top: 0;
+            height: 200px;
+            background-repeat: no-repeat;
+        }
+
+        &.icon-1:before {
+            background: url(../images/icons/software-icon.png) no-repeat;
+        }
+    }
 }
 
 //Latest block

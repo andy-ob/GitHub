@@ -8,9 +8,9 @@
 /*Layout */
 /* line 3, ../sass/header.scss */
 header {
-  background: #323a45;
-  -webkit-box-shadow: 2px 2px 4px #888888;
+  background: #323A45;
   -moz-box-shadow: 2px 2px 4px #888888;
+  -webkit-box-shadow: 2px 2px 4px #888888;
   box-shadow: 2px 2px 4px #888888;
   position: relative;
 }
@@ -26,31 +26,41 @@ header {
 
 /* line 15, ../sass/header.scss */
 .menu-trigger {
+  background: rgba(50, 58, 69, 0.7);
+  border-radius: 3px;
   display: block;
-  height: 30px;
+  height: 50px;
   overflow: hidden;
   position: fixed;
-  right: 50px;
-  top: 35px;
-  width: 50px;
+  right: 40px;
+  top: 25px;
+  width: 60px;
+  padding: 10px;
   z-index: 999;
 }
-/* line 24, ../sass/header.scss */
+/* line 27, ../sass/header.scss */
 .menu-trigger span {
   background: white;
   display: block;
+  width: 40px;
   height: 4px;
-  margin: 13px 0;
+  margin: 13px auto;
   position: relative;
   text-indent: 100%;
   white-space: nowrap;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 33, ../sass/header.scss */
+/* line 37, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span:after {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 40, ../sass/header.scss */
 .menu-trigger span:before, .menu-trigger span::before {
   background: white;
   content: "";
@@ -60,7 +70,7 @@ header {
   top: -13px;
   width: 100%;
 }
-/* line 42, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 .menu-trigger span:after, .menu-trigger span::after {
   background: white;
   content: "";
@@ -70,34 +80,30 @@ header {
   bottom: -13px;
   width: 100%;
 }
-/* line 53, ../sass/header.scss */
+/* line 61, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:before {
+  -webkit-animation: menuHoverB .3s linear;
+  animation: menuHoverB .3s linear;
+}
+/* line 65, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:after {
+  -webkit-animation: menuHoverA .3s linear;
+  animation: menuHoverA .3s linear;
+}
+/* line 73, ../sass/header.scss */
 .menu-trigger.open span {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+  background: transparent;
 }
-/* line 55, ../sass/header.scss */
-.menu-trigger.open span::before {
-  top: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+/* line 75, ../sass/header.scss */
+.menu-trigger.open span:before {
+  transform: rotate(45deg) translate(10px, 8px);
 }
-/* line 59, ../sass/header.scss */
-.menu-trigger.open span::after {
-  bottom: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+/* line 78, ../sass/header.scss */
+.menu-trigger.open span:after {
+  transform: rotate(-45deg) translate(10px, -8px);
 }
 
-/* line 66, ../sass/header.scss */
+/* line 84, ../sass/header.scss */
 #leadNav {
   background: #323a45;
   height: 100%;
@@ -108,47 +114,47 @@ header {
   width: 300px;
   z-index: 990;
 }
-/* line 75, ../sass/header.scss */
+/* line 93, ../sass/header.scss */
 #leadNav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 80, ../sass/header.scss */
+/* line 98, ../sass/header.scss */
 #leadNav li {
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 84, ../sass/header.scss */
+/* line 102, ../sass/header.scss */
 #leadNav li a {
-  color: white;
+  color: #ffffff;
   display: block;
   font-weight: 300;
   padding: 20px 50px;
 }
-/* line 89, ../sass/header.scss */
+/* line 107, ../sass/header.scss */
 #leadNav li a:hover, #leadNav li a.active {
   background: #c1d72e;
-  color: #323a45;
+  color: #323A45;
   text-decoration: none;
 }
-/* line 96, ../sass/header.scss */
+/* line 114, ../sass/header.scss */
 #leadNav .subNav {
   background: #c1d72e;
   height: 0;
   margin-left: 20px;
   overflow: hidden;
 }
-/* line 103, ../sass/header.scss */
+/* line 121, ../sass/header.scss */
 #leadNav .subNav li a:hover {
-  background: white;
+  background: #ffffff;
 }
-/* line 106, ../sass/header.scss */
+/* line 124, ../sass/header.scss */
 #leadNav .subNav li a.active {
-  background: white;
+  background: #ffffff;
 }
-/* line 112, ../sass/header.scss */
+/* line 130, ../sass/header.scss */
 #leadNav .subNavTrigger {
   height: 65px;
   overflow: hidden;
@@ -160,23 +166,22 @@ header {
   white-space: nowrap;
   width: 30px;
 }
-/* line 122, ../sass/header.scss */
+/* line 140, ../sass/header.scss */
 #leadNav .subNavTrigger:hover {
   background: none;
 }
-/* line 125, ../sass/header.scss */
+/* line 143, ../sass/header.scss */
 #leadNav .subNavTrigger span {
   background: white;
   display: block;
   height: 2px;
   position: relative;
-  -webkit-transition: all ease-in-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 131, ../sass/header.scss */
+/* line 149, ../sass/header.scss */
 #leadNav .subNavTrigger span:after, #leadNav .subNavTrigger span::after {
   background: white;
   content: "";
@@ -188,13 +193,13 @@ header {
   -webkit-transform: rotate(90deg);
   width: 100%;
 }
-/* line 144, ../sass/header.scss */
+/* line 162, ../sass/header.scss */
 #leadNav .subNavTrigger.open span {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-/* line 153, ../sass/header.scss */
+/* line 171, ../sass/header.scss */
 #logo-home {
   height: 246px;
   left: 50%;
@@ -205,7 +210,7 @@ header {
   top: 50%;
   width: 600px;
 }
-/* line 162, ../sass/header.scss */
+/* line 180, ../sass/header.scss */
 #logo-home .strap {
   color: #919496;
   font-size: 2em;
