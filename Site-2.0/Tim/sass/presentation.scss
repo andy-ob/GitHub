@@ -1,0 +1,20 @@
+@import "global-variables";
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.error {
+  color: $errorColor;
+}
+.success {
+  color: $successColor;
+}
+.hide {
+    display: none;
+}
+.align-center {
+    text-align: center;   
+}

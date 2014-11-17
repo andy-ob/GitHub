@@ -1,0 +1,171 @@
+@import "global-variables";
+
+/* Layout */
+.contain {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: $containerPadding;
+  &.breakout {
+    max-width: $largeMaxWidth;
+  }
+}
+/**********/
+
+/* Respond, fluid layout */
+.row {
+  clear: both;
+  &.negative-10 {
+    margin: 0 -10px;
+	.even-pad {
+		margin: 0 10px;
+	}
+  }
+  &.negative-20 {
+    margin: 0 -20px;
+    .even-pad {
+      margin: 0 20px;
+    }
+  }
+  &.negative-30 {
+    margin: 0 -30px;
+    .even-pad {
+      margin: 0 30px;
+    }
+  }
+  &.negative-left-30 {
+    margin-left: -30px;
+    width: auto;
+  }
+  &.negative-right-10 {
+    margin-right: -10px;
+  }
+}
+.no-bg .col {
+  filter: none;
+  background: none;
+}
+.even-pad {
+  //margin: 0 10px;
+}
+.gutter-10 {
+  padding: 30px;
+}
+.gutter-20 {
+  padding: 30px;
+}
+.gutter-30 {
+  padding: 30px;
+}
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col {
+  float: left;
+}
+@mixin col-mixin($col) {
+  $pixelVal: ($maxWidth / $colNumber) * $col;
+  width: percentage($pixelVal / $maxWidth);
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+@mixin offby-mixin($offBy) {
+  $pixelVal: ($maxWidth / $colNumber) * $offBy;
+  margin-left: percentage($pixelVal / $maxWidth);
+}
+.one-col {
+  @include col-mixin(1);
+}
+.two-col {
+  @include col-mixin(2);
+}
+.three-col {
+  @include col-mixin(3);
+}
+.four-col {
+  @include col-mixin(4);
+}
+.five-col {
+  @include col-mixin(5);
+}
+.six-col {
+  @include col-mixin(6);
+}
+.seven-col {
+  @include col-mixin(7);
+}
+.eight-col {
+  @include col-mixin(8);
+}
+.nine-col {
+  @include col-mixin(9);
+}
+.ten-col {
+  @include col-mixin(10);
+}
+.eleven-col {
+  @include col-mixin(11);
+}
+.twelve-col {
+  @include col-mixin(12);
+}
+.thirteen-col {
+  @include col-mixin(13);
+}
+.fourteen-col {
+  @include col-mixin(14);
+}
+.fifteen-col {
+  @include col-mixin(15);
+}
+.sixteen-col {
+  @include col-mixin(16);
+}
+
+/*Offsets*/
+.offby-one {
+  @include offby-mixin(1);
+}
+.offby-two {
+  @include offby-mixin(2);
+}
+.offby-three {
+  @include offby-mixin(3);
+}
+.offby-four {
+  @include offby-mixin(4);
+}
+.offby-five {
+  @include offby-mixin(5);
+}
+.offby-six {
+  @include offby-mixin(6);
+}
+.offby-seven {
+  @include offby-mixin(7);
+}
+.offby-eight {
+  @include offby-mixin(8);
+}
+.offby-nine {
+  @include offby-mixin(9);
+}
+.offby-ten {
+  @include offby-mixin(10);
+}
+.offby-eleven {
+  @include offby-mixin(11);
+}
+.offby-twelve {
+  @include offby-mixin(12);
+}
+.offby-thirteen {
+  @include offby-mixin(13);
+}
+.offby-fourteen {
+  @include offby-mixin(14);
+}
+.offby-fifteen {
+  @include offby-mixin(15);
+}
+
+section {
+  overflow: hidden;
+}

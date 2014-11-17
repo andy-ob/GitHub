@@ -1,0 +1,98 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/footer.scss */
+footer {
+  margin-top: 50px;
+}
+
+/* line 6, ../sass/footer.scss */
+#social {
+  background: #323a45;
+  padding: 20px 0;
+}
+
+/* line 10, ../sass/footer.scss */
+#footernav {
+  text-align: center;
+}
+/* line 12, ../sass/footer.scss */
+#footernav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 16, ../sass/footer.scss */
+#footernav ul li {
+  display: inline-block;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+/* line 22, ../sass/footer.scss */
+#footernav ul a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #D0DBE2;
+  display: block;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+/* line 28, ../sass/footer.scss */
+#footernav ul a i {
+  display: block;
+  font-size: 2em;
+  font-size: 3.2rem;
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+}
+/* line 36, ../sass/footer.scss */
+#footernav ul a:hover {
+  background-color: #c1d72e;
+  color: white;
+}
+
+/* line 46, ../sass/footer.scss */
+.facebook span {
+  background-position: 0 -70px;
+}
+
+/* line 49, ../sass/footer.scss */
+.email span {
+  background-position: 0 -140px;
+}
+
+/* line 52, ../sass/footer.scss */
+#credits {
+  background: #23282F;
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 56, ../sass/footer.scss */
+#credits p {
+  color: #fff;
+  font-size: 0.875em;
+  font-size: 1.4rem;
+  margin: 0;
+}
+/* line 62, ../sass/footer.scss */
+#credits a {
+  color: #fff;
+  font-weight: 200;
+}
+/* line 65, ../sass/footer.scss */
+#credits a:hover {
+  color: #c1d72e;
+}
