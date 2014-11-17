@@ -1,0 +1,62 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/elements.scss */
+img {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 7, ../sass/elements.scss */
+blockquote {
+  color: #c1d72e;
+  font-size: 1.25em;
+  font-style: italic;
+  padding: 20px 10px;
+}
+
+/**********/
+/* List elements */
+/* line 16, ../sass/elements.scss */
+ul, ol {
+  margin: 20px 0;
+}
+/* line 18, ../sass/elements.scss */
+ul li, ol li {
+  padding: 0 0 10px 0;
+}
+
+/* line 22, ../sass/elements.scss */
+ul {
+  padding: 0 0 0 30px;
+}
+
+/* line 25, ../sass/elements.scss */
+dl {
+  margin: 20px 0;
+}
+/* line 27, ../sass/elements.scss */
+dl dd, dl dt {
+  padding: 0 0 10px 0;
+}
+
+/* line 31, ../sass/elements.scss */
+hr {
+  border: 4px solid #c1d72e;
+  margin: 40px 0 20px;
+}
+
+/* line 35, ../sass/elements.scss */
+fieldset {
+  border: 0;
+}
+
+/* line 38, ../sass/elements.scss */
+legend {
+  display: none;
+}
