@@ -15,17 +15,16 @@ h1, h2, h3, h4, h5, h6 {
     color: $primaryColor;
     font-weight: 200;
     line-height: $ratio + em;
-    margin: 0;
+    margin: 0 0 $ratio + em 0;
 }
 
 @include headings($maxHeadSize, $diff);
 
 h3 {
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
 }
-
 h4 {
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
 }
 
 a {
@@ -38,11 +37,15 @@ a {
 }
 
 p {
+<<<<<<< HEAD
     margin: 0 0 2.8125em 0;
     font-size: 1.25em;
     font-weight: 100;
     line-height: $ratio + em;
 
+=======
+    margin: 0 0 $ratio + em 0;
+>>>>>>> origin/master
 }
 
 .icon {

@@ -115,12 +115,10 @@
 /* line 112, ../sass/content.scss */
 #content h2 {
   font-weight: 400;
-  margin-bottom: 1.25em;
 }
 /* line 116, ../sass/content.scss */
 #content h3 {
   font-weight: 400;
-  margin-bottom: 0.8695652173913043em;
 }
 
 /* line 123, ../sass/content.scss */
@@ -130,7 +128,6 @@
 /* line 125, ../sass/content.scss */
 .content-section h2 {
   font-weight: 700;
-  margin-bottom: 2.8125em;
   text-align: center;
 }
 
