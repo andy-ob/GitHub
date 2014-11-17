@@ -1,0 +1,53 @@
+@import "global-variables";
+
+html {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+*, *:before, *:after {
+	-moz-box-sizing: inherit; -webkit-box-sizing: inherit; box-sizing: inherit;
+}
+html {
+  //Set base font size to 10px
+  font-size: $baseFontSize;
+  height: 100%;
+}
+body {
+  background: $bgColor;
+  color: $primaryColor;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  //Set body font size to 16px based on the parent font size of 10px
+  font-size: $contentFontSize;
+  height: 100%;
+  line-height: (1 / 16) *(16 * $ratio) + em;
+  position: relative;
+  -webkit-font-smoothing: antialised; 
+}
+
+#mediaCheck {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+#preload {
+  background: $primaryColor;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  #loader {
+    height: 246px;
+    left: 50%;
+    margin: -123px 0 0 -180px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 360px;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+}

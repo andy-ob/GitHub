@@ -1,0 +1,284 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 2, ../sass/header.scss */
+header {
+  background: #323a45;
+  -moz-box-shadow: 2px 2px 4px #888888;
+  -webkit-box-shadow: 2px 2px 4px #888888;
+  box-shadow: 2px 2px 4px #888888;
+  position: relative;
+}
+
+/* line 7, ../sass/header.scss */
+#logo {
+  padding: 26px;
+}
+/* line 9, ../sass/header.scss */
+#logo img {
+  display: block;
+}
+
+/* line 13, ../sass/header.scss */
+.menu-trigger {
+  background: rgba(50, 58, 69, 0.7);
+  border-radius: 3px;
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  right: 40px;
+  top: 25px;
+  width: 60px;
+  padding: 10px;
+  z-index: 999;
+}
+/* line 25, ../sass/header.scss */
+.menu-trigger span {
+  background: white;
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 13px auto;
+  position: relative;
+  text-indent: 100%;
+  white-space: nowrap;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+/* line 35, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span:after {
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+/* line 38, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span::before {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: -13px;
+  width: 100%;
+}
+/* line 47, ../sass/header.scss */
+.menu-trigger span:after, .menu-trigger span::after {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  bottom: -13px;
+  width: 100%;
+}
+/* line 60, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:before {
+  -webkit-animation: menuHoverB .3s linear;
+  animation: menuHoverB .3s linear;
+}
+/* line 64, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:after {
+  -webkit-animation: menuHoverA .3s linear;
+  animation: menuHoverA .3s linear;
+}
+/* line 72, ../sass/header.scss */
+.menu-trigger.open span {
+  background: transparent;
+}
+/* line 74, ../sass/header.scss */
+.menu-trigger.open span:before {
+  transform: rotate(45deg) translate(10px, 8px);
+}
+/* line 77, ../sass/header.scss */
+.menu-trigger.open span:after {
+  transform: rotate(-45deg) translate(10px, -8px);
+}
+
+/* line 83, ../sass/header.scss */
+#leadNav {
+  background: #323a45;
+  height: 100%;
+  padding: 125px 0 50px;
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  z-index: 990;
+}
+/* line 92, ../sass/header.scss */
+#leadNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 97, ../sass/header.scss */
+#leadNav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 101, ../sass/header.scss */
+#leadNav li a {
+  color: white;
+  display: block;
+  font-weight: 300;
+  padding: 20px 50px;
+}
+/* line 106, ../sass/header.scss */
+#leadNav li a:hover, #leadNav li a.active {
+  background: #c1d72e;
+  color: #323a45;
+  text-decoration: none;
+}
+/* line 113, ../sass/header.scss */
+#leadNav .subNav {
+  background: #c1d72e;
+  height: 0;
+  margin-left: 20px;
+  overflow: hidden;
+}
+/* line 120, ../sass/header.scss */
+#leadNav .subNav li a:hover {
+  background: white;
+}
+/* line 126, ../sass/header.scss */
+#leadNav .subNavTrigger {
+  height: 65px;
+  overflow: hidden;
+  padding: 30px 0 0;
+  position: absolute;
+  right: 20px;
+  text-indent: 300%;
+  top: 0;
+  white-space: nowrap;
+  width: 30px;
+}
+/* line 136, ../sass/header.scss */
+#leadNav .subNavTrigger:hover {
+  background: none;
+}
+/* line 139, ../sass/header.scss */
+#leadNav .subNavTrigger span {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+/* line 145, ../sass/header.scss */
+#leadNav .subNavTrigger span:after, #leadNav .subNavTrigger span::after {
+  background: white;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  width: 100%;
+}
+/* line 158, ../sass/header.scss */
+#leadNav .subNavTrigger.open span {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* line 166, ../sass/header.scss */
+#logo-home {
+  height: 246px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -123px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 600px;
+}
+/* line 175, ../sass/header.scss */
+#logo-home .strap {
+  color: #919496;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.61803em;
+  padding: 20px;
+}
+
+@-webkit-keyframes menuHoverB {
+  /* line 185, ../sass/header.scss */
+  0% {
+    top: -13px;
+  }
+
+  /* line 188, ../sass/header.scss */
+  50% {
+    top: -10px;
+  }
+
+  /* line 191, ../sass/header.scss */
+  100% {
+    top: -13px;
+  }
+}
+@keyframes menuHoverB {
+  /* line 197, ../sass/header.scss */
+  0% {
+    top: -13px;
+  }
+
+  /* line 200, ../sass/header.scss */
+  50% {
+    top: -10px;
+  }
+
+  /* line 203, ../sass/header.scss */
+  100% {
+    top: -13px;
+  }
+}
+@-webkit-keyframes menuHoverA {
+  /* line 209, ../sass/header.scss */
+  0% {
+    bottom: -13px;
+  }
+
+  /* line 212, ../sass/header.scss */
+  50% {
+    bottom: -10px;
+  }
+
+  /* line 215, ../sass/header.scss */
+  100% {
+    bottom: -13px;
+  }
+}
+@keyframes menuHoverA {
+  /* line 221, ../sass/header.scss */
+  0% {
+    bottom: -13px;
+  }
+
+  /* line 224, ../sass/header.scss */
+  50% {
+    bottom: -10px;
+  }
+
+  /* line 227, ../sass/header.scss */
+  100% {
+    bottom: -13px;
+  }
+}

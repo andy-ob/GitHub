@@ -1,0 +1,112 @@
+.carousel {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+.carouselWrap {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+	.carouselWrap ul {
+		padding: 0;
+	}
+	.carousel li {
+		display: none;
+		/*max-height: 470px;*/
+		padding: 0;
+		overflow: hidden;
+	}
+	.carousel li:first-child {
+		display: block;
+	}
+		.carousel img {
+			display: block;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		/*.carousel .strap {
+			background: rgba(51, 51, 51, 0.6);
+			bottom: 0;
+			color: #fff;
+			padding: 10px;
+			position: absolute;
+			width: 400px;
+		}*/
+	.leftToggle, .rightToggle {
+		/*background: url(carousel-toggle.png) no-repeat 0 0;*/
+	  display: none;
+		height: 54px;
+		margin-top: -27px;
+		position: absolute;
+		text-indent: -9999px;
+		top: 50%;
+		-webkit-transition: all ease-in-out 0.2s;
+		width: 29px;
+	}
+		.leftToggle {
+			left: 5px;
+		}
+		.rightToggle {
+			background-position: 0 -56px;
+			right: 5px;
+		}
+.optAns.active {
+	color: #333 !important;
+}
+.carouselWrap .carouselPagination {
+	clear: both;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	bottom: 9px;
+	width: 100%;
+	z-index: 30;
+}
+	.carouselWrap .carouselPagination ul {
+		margin: 0;
+		padding: 0;
+	}
+	.carouselWrap .carouselPagination ul li {
+		padding: 0;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+	.carouselPagination ul li a {
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		width: 12px;
+		height: 12px;
+		margin-left: 10px;
+	}
+	.carouselPagination ul li:first-child a {
+		margin-left: 0;
+	}
+		.carouselWrap .carouselPagination ul li.active a {
+			background: rgb(193, 215, 46) !important;
+			color: rgb(193, 215, 46) !important;
+		}
+	.carouselWrap .carouselPagination ul li a {
+		background: #fff;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		color: #fff !important;
+	}
+.scroll .carousel li {
+	display: block;
+}
+.fade .carousel li {
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+    width: 100%;
+}
+	.fade .carousel li:first-child {
+		display: block;
+	}

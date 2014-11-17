@@ -1,0 +1,124 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+@media all and (max-width: 1280px) {
+  /* line 7, ../sass/media-queries.scss */
+  #mediaCheck {
+    display: none;
+  }
+
+  /* line 10, ../sass/media-queries.scss */
+  #hero {
+    height: auto;
+  }
+}
+@media all and (max-width: 959px) {
+  /* line 18, ../sass/media-queries.scss */
+  html {
+    font-size: 55%;
+  }
+
+  /* line 21, ../sass/media-queries.scss */
+  .contain {
+    padding: 0 10px;
+  }
+
+  /* line 24, ../sass/media-queries.scss */
+  #leadNav {
+    padding-top: 100px;
+  }
+  /* line 27, ../sass/media-queries.scss */
+  #leadNav li a {
+    padding: 10px 30px;
+  }
+  /* line 31, ../sass/media-queries.scss */
+  #leadNav .subNavTrigger {
+    height: 45px;
+    padding-top: 21px;
+  }
+}
+@media all and (max-width: 767px) {
+  /* line 41, ../sass/media-queries.scss */
+  html {
+    font-size: 50%;
+  }
+
+  /* line 44, ../sass/media-queries.scss */
+  .menu-trigger {
+    right: 20px;
+  }
+
+  /* line 47, ../sass/media-queries.scss */
+  #leadNav {
+    padding-top: 80px;
+  }
+  /* line 49, ../sass/media-queries.scss */
+  #leadNav .subNavTrigger {
+    height: 40px;
+    padding-top: 18px;
+  }
+
+  /* line 54, ../sass/media-queries.scss */
+  .col {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 58, ../sass/media-queries.scss */
+  div[class*="offby"] {
+    margin-left: 0;
+  }
+
+  /* line 62, ../sass/media-queries.scss */
+  .row.negative-10, .row.negative-20, .row.negative-30 {
+    margin: 0;
+  }
+  /* line 64, ../sass/media-queries.scss */
+  .row.negative-10 .even-pad, .row.negative-20 .even-pad, .row.negative-30 .even-pad {
+    margin: 0;
+  }
+  /* line 68, ../sass/media-queries.scss */
+  .row .even-pad {
+    margin: 0;
+  }
+}
+@media all and (max-width: 479px) {
+  /* line 74, ../sass/media-queries.scss */
+  .contain {
+    padding: 0 5px;
+  }
+
+  /* line 77, ../sass/media-queries.scss */
+  #logo-home {
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    top: 0;
+    width: 300px;
+  }
+  /* line 84, ../sass/media-queries.scss */
+  #logo-home img {
+    width: 160px;
+  }
+
+  /* line 88, ../sass/media-queries.scss */
+  #logo {
+    padding: 10px 0;
+  }
+
+  /* line 91, ../sass/media-queries.scss */
+  .menu-trigger {
+    top: 8px;
+  }
+
+  /* line 94, ../sass/media-queries.scss */
+  #leadNav {
+    padding-top: 68px;
+  }
+}

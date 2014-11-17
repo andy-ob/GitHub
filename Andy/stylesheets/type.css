@@ -1,0 +1,72 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #323a45;
+  font-weight: 200;
+  line-height: 1em;
+  margin: 0;
+}
+
+/* line 10, ../sass/type.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 11, ../sass/type.scss */
+h2 {
+  font-size: 1.75em;
+}
+
+/* line 12, ../sass/type.scss */
+h3 {
+  font-size: 1.625em;
+  margin-bottom: 30px;
+}
+
+/* line 13, ../sass/type.scss */
+h4 {
+  font-size: 1.375em;
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/type.scss */
+h5 {
+  font-size: 1.125em;
+}
+
+/* line 15, ../sass/type.scss */
+h6 {
+  font-size: 1em;
+}
+
+/* line 17, ../sass/type.scss */
+a {
+  text-decoration: none;
+  color: #c1d72e;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+/* line 21, ../sass/type.scss */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* line 26, ../sass/type.scss */
+p {
+  margin: 0 0 2.8125em 0;
+}
+
+/* line 31, ../sass/type.scss */
+.icon i {
+  font-size: 3em;
+}

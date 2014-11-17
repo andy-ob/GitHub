@@ -1,0 +1,27 @@
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/presentation.scss */
+.left {
+  float: left;
+}
+
+/* line 6, ../sass/presentation.scss */
+.right {
+  float: right;
+}
+
+/* line 9, ../sass/presentation.scss */
+.error {
+  color: red;
+}
+
+/* line 12, ../sass/presentation.scss */
+.success {
+  color: #13a521;
+}
