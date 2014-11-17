@@ -1,70 +1,2373 @@
-/*
-Syntax error: Invalid CSS after "p {": expected "}", was "<<<<<<< HEAD"
-        on line 40 of C:\Projects\GitHub\Site-2.0\sass\type.scss
-        from line 4 of C:/Projects/GitHub/Site-2.0/sass/styles.scss
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 11, ../sass/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
 
-Backtrace:
-C:\Projects\GitHub\Site-2.0\sass\type.scss:40
-C:/Projects/GitHub/Site-2.0/sass/styles.scss:4
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1312:in `expected'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1248:in `expected'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1243:in `tok!'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:642:in `block'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:634:in `ruleset'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:659:in `block_child'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:652:in `block_contents'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:116:in `stylesheet'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:41:in `parse'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/engine.rb:409:in `_to_tree'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/engine.rb:305:in `to_tree'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:295:in `block in visit_import'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:88:in `block in with_import'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:88:in `with_import'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `map'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:151:in `visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:8:in `visit'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/root_node.rb:36:in `css_tree'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/tree/root_node.rb:20:in `render'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:171:in `block (2 levels) in compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:166:in `block in compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/logger.rb:46:in `red'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:165:in `compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:144:in `compile_if_required'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:129:in `block (2 levels) in run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `each'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `block in run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:126:in `run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/update_project.rb:49:in `perform'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/base.rb:18:in `execute'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/project_base.rb:19:in `execute'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:30:in `block in <top (required)>'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:44:in `call'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:44:in `<top (required)>'
-c:/Program Files (x86)/Prepros/bin/gems.rb:17:in `load'
-c:/Program Files (x86)/Prepros/bin/gems.rb:17:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"p {\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 40 of C:\Projects\GitHub\Site-2.0\sass\type.scss\A         from line 4 of C:/Projects/GitHub/Site-2.0/sass/styles.scss"; }
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, ../sass/normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, ../sass/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 50, ../sass/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, ../sass/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 74, ../sass/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, ../sass/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../sass/normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 108, ../sass/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 117, ../sass/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 125, ../sass/normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 134, ../sass/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 142, ../sass/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 152, ../sass/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 161, ../sass/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 173, ../sass/normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 181, ../sass/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 189, ../sass/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 197, ../sass/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 205, ../sass/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 209, ../sass/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 221, ../sass/normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 229, ../sass/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 241, ../sass/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 253, ../sass/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 264, ../sass/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 275, ../sass/normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 289, ../sass/normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 301, ../sass/normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 314, ../sass/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 326, ../sass/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+/* line 336, ../sass/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 348, ../sass/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 360, ../sass/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 369, ../sass/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 380, ../sass/normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 393, ../sass/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/clearfix.scss */
+.cf:before,
+.cf:after, .row:before, .row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 7, ../sass/clearfix.scss */
+.cf:after, .row:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 14, ../sass/clearfix.scss */
+.cf, .row {
+  *zoom: 1;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/base.scss */
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/base.scss */
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 9, ../sass/base.scss */
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+/* line 14, ../sass/base.scss */
+body {
+  background: #f0f0ec;
+  color: #323A45;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  height: 100%;
+  line-height: 1.61803em;
+  position: relative;
+  -webkit-font-smoothing: antialised;
+}
+
+/* line 26, ../sass/base.scss */
+#mediaCheck {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+/* line 32, ../sass/base.scss */
+#preload {
+  background: #323A45;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+/* line 40, ../sass/base.scss */
+#preload #loader {
+  height: 246px;
+  left: 50%;
+  margin: -123px 0 0 -180px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 360px;
+}
+/* line 49, ../sass/base.scss */
+#preload img {
+  display: block;
+  width: 100%;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 14, ../sass/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #323A45;
+  font-weight: 200;
+  line-height: 1.61803em;
+  margin: 0 0 1.61803em 0;
+}
+
+/* line 7, ../sass/type.scss */
+h1 {
+  font-size: 1.875em;
+}
+
+/* line 7, ../sass/type.scss */
+h2 {
+  font-size: 1.65em;
+}
+
+/* line 7, ../sass/type.scss */
+h3 {
+  font-size: 1.425em;
+}
+
+/* line 7, ../sass/type.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 7, ../sass/type.scss */
+h5 {
+  font-size: 0.975em;
+}
+
+/* line 7, ../sass/type.scss */
+h6 {
+  font-size: 0.75em;
+}
+
+/* line 30, ../sass/type.scss */
+a {
+  text-decoration: none;
+  color: #c1d72e;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 34, ../sass/type.scss */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* line 39, ../sass/type.scss */
+p {
+  margin: 0 0 1.61803em 0;
+  font-size: 1.25em;
+  font-weight: 100;
+  line-height: 1.61803em;
+}
+
+/* line 47, ../sass/type.scss */
+.icon i {
+  font-size: 3em;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/elements.scss */
+img {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 7, ../sass/elements.scss */
+blockquote {
+  color: #c1d72e;
+  font-size: 1.25em;
+  font-style: italic;
+  padding: 20px 10px;
+}
+
+/**********/
+/* List elements */
+/* line 16, ../sass/elements.scss */
+ul, ol {
+  margin: 20px 0;
+}
+/* line 18, ../sass/elements.scss */
+ul li, ol li {
+  padding: 0 0 10px 0;
+}
+
+/* line 22, ../sass/elements.scss */
+ul {
+  padding: 0 0 0 30px;
+}
+
+/* line 25, ../sass/elements.scss */
+dl {
+  margin: 20px 0;
+}
+/* line 27, ../sass/elements.scss */
+dl dd, dl dt {
+  padding: 0 0 10px 0;
+}
+
+/* line 31, ../sass/elements.scss */
+hr {
+  border: 4px solid #c1d72e;
+  margin: 40px 0 20px;
+}
+
+/* line 35, ../sass/elements.scss */
+fieldset {
+  border: 0;
+}
+
+/* line 38, ../sass/elements.scss */
+legend {
+  display: none;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 9, ../sass/button.scss */
+.btn {
+  background: #323A45;
+  color: #fff;
+  display: inline-block;
+  padding: 0.625em 1.875em;
+}
+/* line 11, ../sass/button.scss */
+.btn:hover {
+  background: #c1d72e;
+  color: #323A45;
+  text-decoration: none;
+}
+/* line 19, ../sass/button.scss */
+.btn.alt {
+  background: #bababa;
+  color: #fff;
+  display: inline-block;
+  padding: 0.625em 1.875em;
+}
+/* line 28, ../sass/button.scss */
+.btn.small {
+  padding: 0.3125em 0.9375em;
+}
+
+/* line 32, ../sass/button.scss */
+.btn-group {
+  margin: 3.125em 0 0;
+  text-align: center;
+}
+/* line 35, ../sass/button.scss */
+.btn-group .btn {
+  margin: 0 0.3125em;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/form.scss */
+input, label, textarea, select {
+  display: block;
+  width: 100%;
+}
+
+/* line 7, ../sass/form.scss */
+input, textarea, select {
+  background: #ffffff;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 10px;
+}
+/* line 12, ../sass/form.scss */
+input:active, input:focus, textarea:active, textarea:focus, select:active, select:focus {
+  outline: none;
+}
+
+/* line 16, ../sass/form.scss */
+textarea {
+  min-height: 300px;
+}
+
+/* line 19, ../sass/form.scss */
+input[type='checkbox'], input[type='radio'] {
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+/* line 25, ../sass/form.scss */
+input[type='checkbox'] + label, input[type='radio'] + label {
+  padding-left: 20px;
+}
+
+/* line 29, ../sass/form.scss */
+input[type='submit'] {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 32, ../sass/form.scss */
+button {
+  border: none;
+  margin-top: 20px;
+}
+
+/* line 36, ../sass/form.scss */
+.frmRow {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/presentation.scss */
+.left {
+  float: left;
+}
+
+/* line 6, ../sass/presentation.scss */
+.right {
+  float: right;
+}
+
+/* line 9, ../sass/presentation.scss */
+.error {
+  color: red;
+}
+
+/* line 12, ../sass/presentation.scss */
+.success {
+  color: #13a521;
+}
+
+/* line 15, ../sass/presentation.scss */
+.hide {
+  display: none;
+}
+
+/* line 18, ../sass/presentation.scss */
+.align-center {
+  text-align: center;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/tooltips.scss */
+.info {
+  background: url("../images/info-icon.png") no-repeat right 5px;
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 8, ../sass/tooltips.scss */
+.info:hover {
+  text-decoration: none;
+}
+/* line 10, ../sass/tooltips.scss */
+.info:hover .tooltip {
+  display: block;
+}
+/* line 14, ../sass/tooltips.scss */
+.info .tooltip {
+  background: #eaeaea;
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  display: none;
+  padding: 10px;
+  position: absolute;
+  right: -10px;
+  width: 280px;
+  z-index: 2;
+}
+/* line 27, ../sass/tooltips.scss */
+.info.tool-bottom .tooltip:after {
+  border-bottom: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 6px;
+  top: -10px;
+  width: 0;
+}
+/* line 39, ../sass/tooltips.scss */
+.info.tool-right .tooltip {
+  right: -294px;
+  top: -5px;
+}
+/* line 42, ../sass/tooltips.scss */
+.info.tool-right .tooltip:after {
+  border-right: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  width: 0;
+}
+/* line 54, ../sass/tooltips.scss */
+.info.tool-left .tooltip {
+  -moz-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.4);
+  left: -294px;
+  top: -4px;
+}
+/* line 58, ../sass/tooltips.scss */
+.info.tool-left .tooltip:after {
+  border-left: 10px solid #eaeaea;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -10px;
+  top: 6px;
+  width: 0;
+}
+/* line 70, ../sass/tooltips.scss */
+.info.tool-top .tooltip {
+  bottom: 38px;
+  -moz-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 73, ../sass/tooltips.scss */
+.info.tool-top .tooltip:after {
+  border-top: 10px solid #eaeaea;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 7px;
+  width: 0;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* Layout */
+/* line 4, ../sass/layout.scss */
+.contain {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* line 8, ../sass/layout.scss */
+.contain.breakout {
+  max-width: 1440px;
+}
+
+/**********/
+/* Respond, fluid layout */
+/* line 15, ../sass/layout.scss */
+.row {
+  clear: both;
+}
+/* line 17, ../sass/layout.scss */
+.row.negative-10 {
+  margin: 0 -10px;
+}
+/* line 19, ../sass/layout.scss */
+.row.negative-10 .even-pad {
+  margin: 0 10px;
+}
+/* line 23, ../sass/layout.scss */
+.row.negative-20 {
+  margin: 0 -20px;
+}
+/* line 25, ../sass/layout.scss */
+.row.negative-20 .even-pad {
+  margin: 0 20px;
+}
+/* line 29, ../sass/layout.scss */
+.row.negative-30 {
+  margin: 0 -30px;
+}
+/* line 31, ../sass/layout.scss */
+.row.negative-30 .even-pad {
+  margin: 0 30px;
+}
+/* line 35, ../sass/layout.scss */
+.row.negative-left-30 {
+  margin-left: -30px;
+  width: auto;
+}
+/* line 39, ../sass/layout.scss */
+.row.negative-right-10 {
+  margin-right: -10px;
+}
+
+/* line 43, ../sass/layout.scss */
+.no-bg .col {
+  filter: none;
+  background: none;
+}
+
+/* line 50, ../sass/layout.scss */
+.gutter-10 {
+  padding: 30px;
+}
+
+/* line 53, ../sass/layout.scss */
+.gutter-20 {
+  padding: 30px;
+}
+
+/* line 56, ../sass/layout.scss */
+.gutter-30 {
+  padding: 30px;
+}
+
+/* line 59, ../sass/layout.scss */
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col {
+  float: left;
+}
+
+/* line 73, ../sass/layout.scss */
+.one-col {
+  width: 8.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 76, ../sass/layout.scss */
+.two-col {
+  width: 16.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 79, ../sass/layout.scss */
+.three-col {
+  width: 25%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 82, ../sass/layout.scss */
+.four-col {
+  width: 33.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 85, ../sass/layout.scss */
+.five-col {
+  width: 41.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 88, ../sass/layout.scss */
+.six-col {
+  width: 50%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 91, ../sass/layout.scss */
+.seven-col {
+  width: 58.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 94, ../sass/layout.scss */
+.eight-col {
+  width: 66.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 97, ../sass/layout.scss */
+.nine-col {
+  width: 75%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 100, ../sass/layout.scss */
+.ten-col {
+  width: 83.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 103, ../sass/layout.scss */
+.eleven-col {
+  width: 91.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 106, ../sass/layout.scss */
+.twelve-col {
+  width: 100%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 109, ../sass/layout.scss */
+.thirteen-col {
+  width: 108.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 112, ../sass/layout.scss */
+.fourteen-col {
+  width: 116.66667%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 115, ../sass/layout.scss */
+.fifteen-col {
+  width: 125%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/* line 118, ../sass/layout.scss */
+.sixteen-col {
+  width: 133.33333%;
+  /* After calculating the pixel width of the required column dividing this target by the context (maxWidth)
+   * will give the percentage for that column.
+   */
+}
+
+/*Offsets*/
+/* line 123, ../sass/layout.scss */
+.offby-one {
+  margin-left: 8.33333%;
+}
+
+/* line 126, ../sass/layout.scss */
+.offby-two {
+  margin-left: 16.66667%;
+}
+
+/* line 129, ../sass/layout.scss */
+.offby-three {
+  margin-left: 25%;
+}
+
+/* line 132, ../sass/layout.scss */
+.offby-four {
+  margin-left: 33.33333%;
+}
+
+/* line 135, ../sass/layout.scss */
+.offby-five {
+  margin-left: 41.66667%;
+}
+
+/* line 138, ../sass/layout.scss */
+.offby-six {
+  margin-left: 50%;
+}
+
+/* line 141, ../sass/layout.scss */
+.offby-seven {
+  margin-left: 58.33333%;
+}
+
+/* line 144, ../sass/layout.scss */
+.offby-eight {
+  margin-left: 66.66667%;
+}
+
+/* line 147, ../sass/layout.scss */
+.offby-nine {
+  margin-left: 75%;
+}
+
+/* line 150, ../sass/layout.scss */
+.offby-ten {
+  margin-left: 83.33333%;
+}
+
+/* line 153, ../sass/layout.scss */
+.offby-eleven {
+  margin-left: 91.66667%;
+}
+
+/* line 156, ../sass/layout.scss */
+.offby-twelve {
+  margin-left: 100%;
+}
+
+/* line 159, ../sass/layout.scss */
+.offby-thirteen {
+  margin-left: 108.33333%;
+}
+
+/* line 162, ../sass/layout.scss */
+.offby-fourteen {
+  margin-left: 116.66667%;
+}
+
+/* line 165, ../sass/layout.scss */
+.offby-fifteen {
+  margin-left: 125%;
+}
+
+/* line 169, ../sass/layout.scss */
+section {
+  overflow: hidden;
+}
+
+/* line 3, ../sass/animations.scss */
+.animate .animation-item {
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 10, ../sass/animations.scss */
+.animate .animation-item.delay-10 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+/* line 14, ../sass/animations.scss */
+.animate .animation-item.delay-14 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+/* line 18, ../sass/animations.scss */
+.animate .animation-item.delay-18 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+/* line 23, ../sass/animations.scss */
+.animate .fadeIn {
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+/* line 28, ../sass/animations.scss */
+.animate .initial-animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 36, ../sass/animations.scss */
+.animate .delayed-animate {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 44, ../sass/animations.scss */
+.animate .fadeScale {
+  -webkit-animation-name: fadeScale;
+  animation-name: fadeScale;
+}
+/* line 48, ../sass/animations.scss */
+.animate .faderotate360 {
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-name: faderotate360;
+  animation-name: faderotate360;
+}
+/* line 54, ../sass/animations.scss */
+.animate .rotateXY {
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-name: rotateXY;
+  animation-name: rotateXY;
+}
+/* line 60, ../sass/animations.scss */
+.animate .element-up {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-name: elementUp;
+  animation-name: elementUp;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+/* line 71, ../sass/animations.scss */
+.animate .element-up.delay-1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+/* line 75, ../sass/animations.scss */
+.animate .element-up.delay-2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+/* line 79, ../sass/animations.scss */
+.animate .element-up.delay-3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+/* line 83, ../sass/animations.scss */
+.animate .element-up.delay-3 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 90, ../sass/animations.scss */
+  .element-up {
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes elementUp {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes elementUp {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-webkit-keyframes fadeScale {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes fadeScale {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes faderotate360 {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  42% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  45% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  51% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes faderotate360 {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  42% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  45% {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  51% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+  }
+}
+@-webkit-keyframes rotateXY {
+  0% {
+    transform: rotateX(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+  33% {
+    transform: rotateX(-315deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-15deg);
+  }
+  66% {
+    transform: rotateY(-315deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-315deg);
+  }
+  100% {
+    transform: rotateY(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+}
+@keyframes rotateXY {
+  0% {
+    transform: rotateX(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+  66% {
+    transform: rotateY(-315deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-315deg) rotateY(-315deg);
+  }
+  100% {
+    transform: rotateY(-15deg) rotateY(-15deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-15deg);
+  }
+}
+/* line 290, ../sass/animations.scss */
+.parallax-block {
+  overflow: hidden;
+  position: relative;
+}
+/* line 293, ../sass/animations.scss */
+.parallax-block .parallax-item {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 4, ../sass/icons.scss */
+#services {
+    /*.big-cog {
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-animation: rotateA 5s ease infinite;
+        -moz-animation: rotateA 5s ease infinite;
+        -o-animation: rotateA 5s ease infinite;
+        animation: rotateA 5s ease infinite;
+    }
+
+    .wee-cog {
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-animation: rotateB 5s ease infinite;
+        -moz-animation: rotateB 5s ease infinite;
+        -o-animation: rotateB 5s ease infinite;
+        animation: rotateB 5s ease infinite;
+    }
+
+    @-webkit-keyframes rotateA {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotateA {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotateB {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }
+
+    @keyframes rotateB {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }*/
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(1) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.25s infinite;
+  -o-animation: stars 2s 0.25s infinite;
+  -webkit-animation: stars 2s 0.25s infinite;
+  animation: stars 2s 0.25s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(2) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.5s infinite;
+  -o-animation: stars 2s 0.5s infinite;
+  -webkit-animation: stars 2s 0.5s infinite;
+  animation: stars 2s 0.5s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(3) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 0.75s infinite;
+  -o-animation: stars 2s 0.75s infinite;
+  -webkit-animation: stars 2s 0.75s infinite;
+  animation: stars 2s 0.75s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(4) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1s infinite;
+  -o-animation: stars 2s 1s infinite;
+  -webkit-animation: stars 2s 1s infinite;
+  animation: stars 2s 1s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(5) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.25s infinite;
+  -o-animation: stars 2s 1.25s infinite;
+  -webkit-animation: stars 2s 1.25s infinite;
+  animation: stars 2s 1.25s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(6) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.5s infinite;
+  -o-animation: stars 2s 1.5s infinite;
+  -webkit-animation: stars 2s 1.5s infinite;
+  animation: stars 2s 1.5s infinite;
+}
+/* line 7, ../sass/icons.scss */
+#services .star:nth-child(7) {
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -moz-animation: stars 2s 1.75s infinite;
+  -o-animation: stars 2s 1.75s infinite;
+  -webkit-animation: stars 2s 1.75s infinite;
+  animation: stars 2s 1.75s infinite;
+}
+/* line 21, ../sass/icons.scss */
+#services .wand {
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  -moz-animation: wand 2s ease infinite;
+  -o-animation: wand 2s ease infinite;
+  -webkit-animation: wand 2s ease infinite;
+  animation: wand 2s ease infinite;
+}
+@-webkit-keyframes stars {
+  0% {
+    -moz-transform: rotate(0) scale(0);
+    -ms-transform: rotate(0) scale(0);
+    -webkit-transform: rotate(0) scale(0);
+    transform: rotate(0) scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: rotate(180deg) scale(1);
+    -ms-transform: rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes stars {
+  0% {
+    -moz-transform: rotate(0) scale(0);
+    -ms-transform: rotate(0) scale(0);
+    -webkit-transform: rotate(0) scale(0);
+    transform: rotate(0) scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: rotate(180deg) scale(1);
+    -ms-transform: rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes wand {
+  0% {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  /*100% {
+      @include transform(rotate(-1deg));
+  }*/
+  /*75% {
+      @include transform(rotate(0));
+  }*/
+}
+@keyframes wand {
+  0% {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  /*100% {
+      @include transform(rotate(-1deg));
+  }*/
+  /*75% {
+      @include transform(rotate(0));
+  }*/
+}
+/* line 98, ../sass/icons.scss */
+#services .cogs {
+  position: relative;
+  width: 70px;
+  height: 120px;
+  margin: 0 auto;
+}
+/* line 105, ../sass/icons.scss */
+#services .big-cog {
+  -moz-transform-origin: center center 50%;
+  -ms-transform-origin: center center 50%;
+  -webkit-transform-origin: center center 50%;
+  transform-origin: center center 50%;
+  -moz-animation: rotateA 5s ease infinite;
+  -webkit-animation: rotateA 5s ease infinite;
+  animation: rotateA 5s ease infinite;
+}
+/* line 110, ../sass/icons.scss */
+#services .wee-cog {
+  -moz-transform-origin: center center 50%;
+  -ms-transform-origin: center center 50%;
+  -webkit-transform-origin: center center 50%;
+  transform-origin: center center 50%;
+  -moz-animation: rotateB 5s ease infinite;
+  -webkit-animation: rotateB 5s ease infinite;
+  animation: rotateB 5s ease infinite;
+  position: absolute;
+  left: 55%;
+  bottom: 5px;
+  width: 50px;
+}
+@-webkit-keyframes rotateA {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotateA {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes rotateB {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateB {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes colorA {
+  0% {
+    fill: #323A45;
+  }
+  50% {
+    fill: #c1d72e;
+  }
+}
+@keyframes colorA {
+  0% {
+    fill: #323A45;
+  }
+  50% {
+    fill: #c1d72e;
+  }
+}
+@-webkit-keyframes colorB {
+  0% {
+    fill: #c1d72e;
+  }
+  50% {
+    fill: #323A45;
+  }
+}
+@keyframes colorB {
+  0% {
+    fill: #c1d72e;
+  }
+  50% {
+    fill: #323A45;
+  }
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(1) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.25s infinite;
+  -moz-animation: bubbles 2.5s 0.25s infinite;
+  -o-animation: bubbles 2.5s 0.25s infinite;
+  animation: bubbles 2.5s 0.25s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(2) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.5s infinite;
+  -moz-animation: bubbles 2.5s 0.5s infinite;
+  -o-animation: bubbles 2.5s 0.5s infinite;
+  animation: bubbles 2.5s 0.5s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(3) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 0.75s infinite;
+  -moz-animation: bubbles 2.5s 0.75s infinite;
+  -o-animation: bubbles 2.5s 0.75s infinite;
+  animation: bubbles 2.5s 0.75s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(4) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1s infinite;
+  -moz-animation: bubbles 2.5s 1s infinite;
+  -o-animation: bubbles 2.5s 1s infinite;
+  animation: bubbles 2.5s 1s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(5) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.25s infinite;
+  -moz-animation: bubbles 2.5s 1.25s infinite;
+  -o-animation: bubbles 2.5s 1.25s infinite;
+  animation: bubbles 2.5s 1.25s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(6) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.5s infinite;
+  -moz-animation: bubbles 2.5s 1.5s infinite;
+  -o-animation: bubbles 2.5s 1.5s infinite;
+  animation: bubbles 2.5s 1.5s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(7) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 1.75s infinite;
+  -moz-animation: bubbles 2.5s 1.75s infinite;
+  -o-animation: bubbles 2.5s 1.75s infinite;
+  animation: bubbles 2.5s 1.75s infinite;
+}
+/* line 335, ../sass/icons.scss */
+#services .bubbles:nth-child(8) {
+  opacity: 0;
+  -webkit-animation: bubbles 2.5s 2s infinite;
+  -moz-animation: bubbles 2.5s 2s infinite;
+  -o-animation: bubbles 2.5s 2s infinite;
+  animation: bubbles 2.5s 2s infinite;
+}
+@-webkit-keyframes bubbles {
+  0% {
+    -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
+    -moz-transform: scale(0.6) translate3d(50px, 0, 0);
+    -ms-transform: scale(0.6) translate3d(50px, 0, 0);
+    -o-transform: scale(0.6) translate3d(50px, 0, 0);
+    transform: scale(0.6) translate3d(50px, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -o-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    transform: scale(1.25) translate3d(-5px, -5px, 0);
+  }
+}
+@keyframes bubbles {
+  0% {
+    -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
+    -moz-transform: scale(0.6) translate3d(50px, 0, 0);
+    -ms-transform: scale(0.6) translate3d(50px, 0, 0);
+    -o-transform: scale(0.6) translate3d(50px, 0, 0);
+    transform: scale(0.6) translate3d(50px, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    -o-transform: scale(1.25) translate3d(-5px, -5px, 0);
+    transform: scale(1.25) translate3d(-5px, -5px, 0);
+  }
+}
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/header.scss */
+header {
+  background: #323A45;
+  -moz-box-shadow: 2px 2px 4px #888888;
+  -webkit-box-shadow: 2px 2px 4px #888888;
+  box-shadow: 2px 2px 4px #888888;
+  position: relative;
+}
+
+/* line 8, ../sass/header.scss */
+#logo {
+  padding: 26px;
+}
+/* line 10, ../sass/header.scss */
+#logo img {
+  display: block;
+}
+
+/* line 15, ../sass/header.scss */
+.menu-trigger {
+  background: rgba(50, 58, 69, 0.7);
+  border-radius: 3px;
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  right: 40px;
+  top: 25px;
+  width: 60px;
+  padding: 10px;
+  z-index: 999;
+}
+/* line 27, ../sass/header.scss */
+.menu-trigger span {
+  background: white;
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 13px auto;
+  position: relative;
+  text-indent: 100%;
+  white-space: nowrap;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 37, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span:after {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 40, ../sass/header.scss */
+.menu-trigger span:before, .menu-trigger span::before {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: -13px;
+  width: 100%;
+}
+/* line 49, ../sass/header.scss */
+.menu-trigger span:after, .menu-trigger span::after {
+  background: white;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  bottom: -13px;
+  width: 100%;
+}
+/* line 61, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:before {
+  -webkit-animation: menuHoverB .3s linear;
+  animation: menuHoverB .3s linear;
+}
+/* line 65, ../sass/header.scss */
+.menu-trigger:not(.open):hover span:after {
+  -webkit-animation: menuHoverA .3s linear;
+  animation: menuHoverA .3s linear;
+}
+/* line 73, ../sass/header.scss */
+.menu-trigger.open span {
+  background: transparent;
+}
+/* line 75, ../sass/header.scss */
+.menu-trigger.open span:before {
+  transform: rotate(45deg) translate(10px, 8px);
+}
+/* line 78, ../sass/header.scss */
+.menu-trigger.open span:after {
+  transform: rotate(-45deg) translate(10px, -8px);
+}
+
+/* line 84, ../sass/header.scss */
+#leadNav {
+  background: #323a45;
+  height: 100%;
+  padding: 125px 0 50px;
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  z-index: 990;
+}
+/* line 93, ../sass/header.scss */
+#leadNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 98, ../sass/header.scss */
+#leadNav li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 102, ../sass/header.scss */
+#leadNav li a {
+  color: #ffffff;
+  display: block;
+  font-weight: 300;
+  padding: 20px 50px;
+}
+/* line 107, ../sass/header.scss */
+#leadNav li a:hover, #leadNav li a.active {
+  background: #c1d72e;
+  color: #323A45;
+  text-decoration: none;
+}
+/* line 114, ../sass/header.scss */
+#leadNav .subNav {
+  background: #c1d72e;
+  height: 0;
+  margin-left: 20px;
+  overflow: hidden;
+}
+/* line 121, ../sass/header.scss */
+#leadNav .subNav li a:hover {
+  background: #ffffff;
+}
+/* line 124, ../sass/header.scss */
+#leadNav .subNav li a.active {
+  background: #ffffff;
+}
+/* line 130, ../sass/header.scss */
+#leadNav .subNavTrigger {
+  height: 65px;
+  overflow: hidden;
+  padding: 30px 0 0;
+  position: absolute;
+  right: 20px;
+  text-indent: 300%;
+  top: 0;
+  white-space: nowrap;
+  width: 30px;
+}
+/* line 140, ../sass/header.scss */
+#leadNav .subNavTrigger:hover {
+  background: none;
+}
+/* line 143, ../sass/header.scss */
+#leadNav .subNavTrigger span {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 149, ../sass/header.scss */
+#leadNav .subNavTrigger span:after, #leadNav .subNavTrigger span::after {
+  background: white;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  width: 100%;
+}
+/* line 162, ../sass/header.scss */
+#leadNav .subNavTrigger.open span {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* line 171, ../sass/header.scss */
+#logo-home {
+  height: 246px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -123px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 600px;
+}
+/* line 180, ../sass/header.scss */
+#logo-home .strap {
+  color: #919496;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.61803em;
+  padding: 20px;
+}
+
+/*
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 3, ../sass/footer.scss */
+footer {
+  margin-top: 50px;
+}
+
+/* line 6, ../sass/footer.scss */
+#social {
+  background: #323a45;
+  padding: 20px 0;
+}
+
+/* line 10, ../sass/footer.scss */
+#footernav {
+  text-align: center;
+}
+/* line 12, ../sass/footer.scss */
+#footernav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 16, ../sass/footer.scss */
+#footernav ul li {
+  display: inline-block;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+/* line 22, ../sass/footer.scss */
+#footernav ul a {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #D0DBE2;
+  display: block;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 28, ../sass/footer.scss */
+#footernav ul a i {
+  display: block;
+  font-size: 2em;
+  font-size: 3.2rem;
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+}
+/* line 36, ../sass/footer.scss */
+#footernav ul a:hover {
+  background-color: #c1d72e;
+  color: #ffffff;
+}
+
+/* line 46, ../sass/footer.scss */
+.facebook span {
+  background-position: 0 -70px;
+}
+
+/* line 49, ../sass/footer.scss */
+.email span {
+  background-position: 0 -140px;
+}
+
+/* line 52, ../sass/footer.scss */
+#credits {
+  background: #23282F;
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 56, ../sass/footer.scss */
+#credits p {
+  color: #fff;
+  font-size: 0.875em;
+  font-size: 1.4rem;
+  margin: 0;
+}
+/* line 62, ../sass/footer.scss */
+#credits a {
+  color: #fff;
+  font-weight: 200;
+}
+/* line 65, ../sass/footer.scss */
+#credits a:hover {
+  color: #c1d72e;
+}

@@ -1,43 +1,72 @@
 /*
-Syntax error: Invalid CSS after "p {": expected "}", was "<<<<<<< HEAD"
-        on line 40 of C:/Projects/GitHub/Site-2.0/sass/type.scss
+ * Global variables used for styles throughout the framework and for various calculations
+ */
+/* Global styles */
+/* Default button styles */
+/* Alt button styles */
+/*Generic styles*/
+/*Layout */
+/* line 14, ../sass/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #323A45;
+  font-weight: 200;
+  line-height: 1.61803em;
+  margin: 0 0 1.61803em 0;
+}
 
-Backtrace:
-C:/Projects/GitHub/Site-2.0/sass/type.scss:40
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1312:in `expected'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1248:in `expected'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:1243:in `tok!'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:642:in `block'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:634:in `ruleset'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:659:in `block_child'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:652:in `block_contents'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:116:in `stylesheet'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/scss/parser.rb:41:in `parse'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/engine.rb:409:in `_to_tree'
-c:/Program Files (x86)/Prepros/gems/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:171:in `block (2 levels) in compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:166:in `block in compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/logger.rb:46:in `red'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:165:in `compile'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:144:in `compile_if_required'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:129:in `block (2 levels) in run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `each'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `block in run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:126:in `run'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/update_project.rb:49:in `perform'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/base.rb:18:in `execute'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/commands/project_base.rb:19:in `execute'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:30:in `block in <top (required)>'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:44:in `call'
-c:/Program Files (x86)/Prepros/gems/gems/compass-1.0.0.alpha.19/bin/compass:44:in `<top (required)>'
-c:/Program Files (x86)/Prepros/bin/gems.rb:17:in `load'
-c:/Program Files (x86)/Prepros/bin/gems.rb:17:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"p {\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 40 of C:/Projects/GitHub/Site-2.0/sass/type.scss"; }
+/* line 7, ../sass/type.scss */
+h1 {
+  font-size: 1.875em;
+}
+
+/* line 7, ../sass/type.scss */
+h2 {
+  font-size: 1.65em;
+}
+
+/* line 7, ../sass/type.scss */
+h3 {
+  font-size: 1.425em;
+}
+
+/* line 7, ../sass/type.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 7, ../sass/type.scss */
+h5 {
+  font-size: 0.975em;
+}
+
+/* line 7, ../sass/type.scss */
+h6 {
+  font-size: 0.75em;
+}
+
+/* line 30, ../sass/type.scss */
+a {
+  text-decoration: none;
+  color: #c1d72e;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 34, ../sass/type.scss */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* line 39, ../sass/type.scss */
+p {
+  margin: 0 0 1.61803em 0;
+  font-size: 1.25em;
+  font-weight: 100;
+  line-height: 1.61803em;
+}
+
+/* line 47, ../sass/type.scss */
+.icon i {
+  font-size: 3em;
+}

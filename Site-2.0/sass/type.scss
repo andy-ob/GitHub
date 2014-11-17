@@ -37,15 +37,10 @@ a {
 }
 
 p {
-<<<<<<< HEAD
-    margin: 0 0 2.8125em 0;
+    margin: 0 0 $ratio + em 0;
     font-size: 1.25em;
     font-weight: 100;
     line-height: $ratio + em;
-
-=======
-    margin: 0 0 $ratio + em 0;
->>>>>>> origin/master
 }
 
 .icon {
