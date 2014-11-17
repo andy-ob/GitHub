@@ -39,6 +39,10 @@ a {
 
 p {
     margin: 0 0 2.8125em 0;
+    font-size: 1.25em;
+    font-weight: 100;
+    line-height: $ratio + em;
+
 }
 
 .icon {
@@ -46,3 +50,4 @@ p {
         font-size: 3em;
     }
 }
+ 

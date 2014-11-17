@@ -55,7 +55,7 @@
 }
 /* line 60, ../sass/content.scss */
 #intro.singlepost * {
-  color: #ffffff;
+  color: white;
 }
 /* line 64, ../sass/content.scss */
 #intro.singlepost .entrymeta span, #intro.singlepost .entrymeta a {
@@ -64,7 +64,7 @@
 }
 /* line 70, ../sass/content.scss */
 #intro.port-title {
-  background: #ffffff;
+  background: white;
   -moz-box-shadow: 0 1px 5px #888888;
   -webkit-box-shadow: 0 1px 5px #888888;
   box-shadow: 0 1px 5px #888888;
@@ -125,7 +125,7 @@
 
 /* line 123, ../sass/content.scss */
 .content-section {
-  padding: 6.25em 0;
+  padding: 3.25em 0;
 }
 /* line 125, ../sass/content.scss */
 .content-section h2 {
@@ -200,7 +200,7 @@
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  color: #323A45;
+  color: #323a45;
   display: inline-block;
   font-size: 0.8125em;
   font-weight: 700;
@@ -236,6 +236,7 @@
 }
 
 @-webkit-keyframes slowScale {
+  /* line 230, ../sass/content.scss */
   100% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -250,15 +251,16 @@
   position: absolute;
   right: 0;
   top: 0;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 244, ../sass/content.scss */
 .cover .latest-meta {
   background: white;
-  color: #323A45;
+  color: #323a45;
   padding: 0.625em;
 }
 
@@ -268,17 +270,18 @@
   left: 10px;
   position: absolute;
   right: 10px;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 /* line 258, ../sass/content.scss */
 .meta-wrap .latest-meta {
   background: white;
-  color: #323A45;
+  color: #323a45;
   display: inline-block;
 }
 /* line 263, ../sass/content.scss */
@@ -300,10 +303,11 @@
 /* line 277, ../sass/content.scss */
 .work-item .brand-logo {
   opacity: 0;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -moz-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.4s;
+  transition: all ease-in-out 0.4s;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
   width: 120px;
@@ -382,11 +386,11 @@
 
 /* line 347, ../sass/content.scss */
 .dropwrapper {
-  background: #323A45;
+  background: #323a45;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  color: #ffffff;
+  color: white;
   float: right;
   margin-bottom: 2.5em;
   position: relative;
@@ -397,10 +401,11 @@
   cursor: pointer;
   padding: 16px;
   position: relative;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 360, ../sass/content.scss */
 .dropwrapper .droplabel span {
@@ -416,10 +421,11 @@
   position: absolute;
   right: 16px;
   top: 16px;
-  -moz-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  -moz-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.15s;
+  transition: all ease-in-out 0.15s;
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
   width: 10px;
@@ -430,7 +436,7 @@
 }
 /* line 381, ../sass/content.scss */
 .dropwrapper .dropdown {
-  background: #323A45;
+  background: #323a45;
   -moz-border-radius-bottomleft: 2px;
   -webkit-border-bottom-left-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -457,7 +463,7 @@
 }
 /* line 398, ../sass/content.scss */
 .dropwrapper .dropdown ul li a {
-  color: #ffffff;
+  color: white;
   display: block;
   font-size: 0.875em;
   line-height: 1;
@@ -494,10 +500,11 @@
   display: block;
   margin-bottom: 30px;
   text-align: center;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 434, ../sass/content.scss */
 .team-item .member-overview:hover .cover {
@@ -538,7 +545,7 @@
 }
 /* line 463, ../sass/content.scss */
 .team-item p {
-  color: #323A45;
+  color: #323a45;
   font-size: 0.8125em;
   font-weight: 400;
   margin: 0;
@@ -566,11 +573,11 @@
 
 /* line 484, ../sass/content.scss */
 .office-title {
-  background: #323A45;
+  background: #323a45;
   -moz-box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
   box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
-  color: #ffffff;
+  color: white;
   display: inline-block;
   font-size: 1.875em;
   margin-bottom: 20px;
@@ -596,7 +603,7 @@
 
 /* line 505, ../sass/content.scss */
 .locations {
-  color: #323A45;
+  color: #323a45;
   font-weight: 700;
 }
 /* line 508, ../sass/content.scss */
@@ -626,10 +633,11 @@
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transition: all linear;
+  -webkit-transition-delay: 0.2s;
+  transition: all linear 0.2s;
 }
 /* line 527, ../sass/content.scss */
 .contact-form input:active, .contact-form input:focus, .contact-form textarea:active, .contact-form textarea:focus {
