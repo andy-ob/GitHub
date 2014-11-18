@@ -38,8 +38,8 @@ a {
 
 p {
     margin: 0 0 $ratio + em 0;
-    font-size: 1.25em;
-    font-weight: 100;
+    //font-size: 1.25em; Need to put this elsewhere if the font size is to be increased, can't be applied to every p as these tags are used in places like the listings
+    //font-weight: 100;
     line-height: $ratio + em;
 }
 
