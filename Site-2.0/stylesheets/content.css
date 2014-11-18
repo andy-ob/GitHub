@@ -55,7 +55,7 @@
 }
 /* line 68, ../sass/content.scss */
 #intro.singlepost * {
-  color: #ffffff;
+  color: white;
 }
 /* line 72, ../sass/content.scss */
 #intro.singlepost .entrymeta span, #intro.singlepost .entrymeta a {
@@ -64,7 +64,7 @@
 }
 /* line 78, ../sass/content.scss */
 #intro.port-title {
-  background: #ffffff;
+  background: white;
   -moz-box-shadow: 0 1px 5px #888888;
   -webkit-box-shadow: 0 1px 5px #888888;
   box-shadow: 0 1px 5px #888888;
@@ -197,7 +197,7 @@
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  color: #323A45;
+  color: #323a45;
   display: inline-block;
   font-size: 0.8125em;
   font-weight: 700;
@@ -233,6 +233,7 @@
 }
 
 @-webkit-keyframes slowScale {
+  /* line 238, ../sass/content.scss */
   100% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -247,21 +248,22 @@
   position: absolute;
   right: 0;
   top: 0;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 252, ../sass/content.scss */
 .cover .latest-meta {
   background: white;
-  color: #323A45;
+  color: #323a45;
   padding: 0.625em;
 }
 /* line 257, ../sass/content.scss */
 .cover .clickthrough {
   background: url(../images/coveranchor-icon.png) no-repeat 0 0;
-  color: #ffffff;
+  color: white;
   font-size: 1.875em;
   height: 16px;
   left: 50%;
@@ -279,17 +281,18 @@
   left: 10px;
   position: absolute;
   right: 10px;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 /* line 274, ../sass/content.scss */
 .meta-wrap .latest-meta {
   background: white;
-  color: #323A45;
+  color: #323a45;
   display: inline-block;
 }
 /* line 279, ../sass/content.scss */
@@ -311,10 +314,11 @@
 /* line 293, ../sass/content.scss */
 .work-item .brand-logo {
   opacity: 0;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -moz-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.4s;
+  transition: all ease-in-out 0.4s;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
   width: 120px;
@@ -393,11 +397,11 @@
 
 /* line 363, ../sass/content.scss */
 .dropwrapper {
-  background: #323A45;
+  background: #323a45;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  color: #ffffff;
+  color: white;
   float: right;
   margin-bottom: 2.5em;
   position: relative;
@@ -408,10 +412,11 @@
   cursor: pointer;
   padding: 16px;
   position: relative;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 376, ../sass/content.scss */
 .dropwrapper .droplabel span {
@@ -427,10 +432,11 @@
   position: absolute;
   right: 16px;
   top: 16px;
-  -moz-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  -moz-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.15s;
+  transition: all ease-in-out 0.15s;
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
   width: 10px;
@@ -441,7 +447,7 @@
 }
 /* line 397, ../sass/content.scss */
 .dropwrapper .dropdown {
-  background: #323A45;
+  background: #323a45;
   -moz-border-radius-bottomleft: 2px;
   -webkit-border-bottom-left-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -468,7 +474,7 @@
 }
 /* line 414, ../sass/content.scss */
 .dropwrapper .dropdown ul li a {
-  color: #ffffff;
+  color: white;
   display: block;
   font-size: 0.875em;
   line-height: 1;
@@ -505,10 +511,11 @@
   display: block;
   margin-bottom: 30px;
   text-align: center;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 450, ../sass/content.scss */
 .team-item .member-overview:hover .cover {
@@ -549,7 +556,7 @@
 }
 /* line 479, ../sass/content.scss */
 .team-item p {
-  color: #323A45;
+  color: #323a45;
   font-size: 0.8125em;
   font-weight: 400;
   margin: 0;
@@ -577,11 +584,11 @@
 
 /* line 500, ../sass/content.scss */
 .office-title {
-  background: #323A45;
+  background: #323a45;
   -moz-box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
   box-shadow: 1px 1px 1px rgba(240, 240, 236, 0.4);
-  color: #ffffff;
+  color: white;
   display: inline-block;
   font-size: 1.875em;
   margin-bottom: 20px;
@@ -607,7 +614,7 @@
 
 /* line 521, ../sass/content.scss */
 .locations {
-  color: #323A45;
+  color: #323a45;
   font-weight: 700;
 }
 /* line 524, ../sass/content.scss */
@@ -637,10 +644,11 @@
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transition: all linear;
+  -webkit-transition-delay: 0.2s;
+  transition: all linear 0.2s;
 }
 /* line 543, ../sass/content.scss */
 .contact-form input:active, .contact-form input:focus, .contact-form textarea:active, .contact-form textarea:focus {
@@ -699,10 +707,11 @@
   margin-bottom: 1.25em;
   overflow: hidden;
   position: relative;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 /* line 587, ../sass/content.scss */
 .blog-item .imgwrap:hover .cover {
@@ -716,7 +725,7 @@
 }
 /* line 597, ../sass/content.scss */
 .blog-item a {
-  color: #323A45;
+  color: #323a45;
 }
 /* line 599, ../sass/content.scss */
 .blog-item a:hover {

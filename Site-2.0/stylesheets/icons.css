@@ -265,17 +265,20 @@
   animation: wand 2s ease infinite;
 }
 @-webkit-keyframes stars {
-  0% {
+  /* line 35, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0) scale(0);
     -ms-transform: rotate(0) scale(0);
     -webkit-transform: rotate(0) scale(0);
     transform: rotate(0) scale(0);
     opacity: 1;
   }
-  50% {
+  /* line 40, ../sass/icons.scss */
+  #services 50%  {
     opacity: 1;
   }
-  100% {
+  /* line 44, ../sass/icons.scss */
+  #services 100%  {
     -moz-transform: rotate(180deg) scale(1);
     -ms-transform: rotate(180deg) scale(1);
     -webkit-transform: rotate(180deg) scale(1);
@@ -284,17 +287,20 @@
   }
 }
 @keyframes stars {
-  0% {
+  /* line 51, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0) scale(0);
     -ms-transform: rotate(0) scale(0);
     -webkit-transform: rotate(0) scale(0);
     transform: rotate(0) scale(0);
     opacity: 1;
   }
-  50% {
+  /* line 56, ../sass/icons.scss */
+  #services 50%  {
     opacity: 1;
   }
-  100% {
+  /* line 60, ../sass/icons.scss */
+  #services 100%  {
     -moz-transform: rotate(180deg) scale(1);
     -ms-transform: rotate(180deg) scale(1);
     -webkit-transform: rotate(180deg) scale(1);
@@ -303,44 +309,54 @@
   }
 }
 @-webkit-keyframes wand {
-  0% {
+  /* line 4, ../sass/icons.scss */
+  #services {
+    /*100% {
+        @include transform(rotate(-1deg));
+    }*/
+    /*75% {
+        @include transform(rotate(0));
+    }*/
+  }
+  /* line 67, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0);
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
-  50% {
+  /* line 71, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
   }
-  /*100% {
-      @include transform(rotate(-1deg));
-  }*/
-  /*75% {
-      @include transform(rotate(0));
-  }*/
 }
 @keyframes wand {
-  0% {
+  /* line 4, ../sass/icons.scss */
+  #services {
+    /*100% {
+        @include transform(rotate(-1deg));
+    }*/
+    /*75% {
+        @include transform(rotate(0));
+    }*/
+  }
+  /* line 83, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0);
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
-  50% {
+  /* line 87, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
   }
-  /*100% {
-      @include transform(rotate(-1deg));
-  }*/
-  /*75% {
-      @include transform(rotate(0));
-  }*/
 }
 /* line 98, ../sass/icons.scss */
 #services .cogs {
@@ -374,13 +390,15 @@
   width: 50px;
 }
 @-webkit-keyframes rotateA {
-  0% {
+  /* line 128, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  50% {
+  /* line 132, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(-360deg);
     -ms-transform: rotate(-360deg);
     -webkit-transform: rotate(-360deg);
@@ -388,13 +406,15 @@
   }
 }
 @keyframes rotateA {
-  0% {
+  /* line 138, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  50% {
+  /* line 142, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(-360deg);
     -ms-transform: rotate(-360deg);
     -webkit-transform: rotate(-360deg);
@@ -402,13 +422,15 @@
   }
 }
 @-webkit-keyframes rotateB {
-  0% {
+  /* line 148, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  50% {
+  /* line 152, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -416,13 +438,15 @@
   }
 }
 @keyframes rotateB {
-  0% {
+  /* line 158, ../sass/icons.scss */
+  #services 0%  {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  50% {
+  /* line 162, ../sass/icons.scss */
+  #services 50%  {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -430,34 +454,42 @@
   }
 }
 @-webkit-keyframes colorA {
-  0% {
+  /* line 168, ../sass/icons.scss */
+  #services 0%  {
     fill: #323A45;
   }
-  50% {
+  /* line 172, ../sass/icons.scss */
+  #services 50%  {
     fill: #c1d72e;
   }
 }
 @keyframes colorA {
-  0% {
+  /* line 178, ../sass/icons.scss */
+  #services 0%  {
     fill: #323A45;
   }
-  50% {
+  /* line 182, ../sass/icons.scss */
+  #services 50%  {
     fill: #c1d72e;
   }
 }
 @-webkit-keyframes colorB {
-  0% {
+  /* line 188, ../sass/icons.scss */
+  #services 0%  {
     fill: #c1d72e;
   }
-  50% {
+  /* line 192, ../sass/icons.scss */
+  #services 50%  {
     fill: #323A45;
   }
 }
 @keyframes colorB {
-  0% {
+  /* line 198, ../sass/icons.scss */
+  #services 0%  {
     fill: #c1d72e;
   }
-  50% {
+  /* line 202, ../sass/icons.scss */
+  #services 50%  {
     fill: #323A45;
   }
 }
@@ -526,7 +558,8 @@
   animation: bubbles 2.5s 2s infinite;
 }
 @-webkit-keyframes bubbles {
-  0% {
+  /* line 345, ../sass/icons.scss */
+  #services 0%  {
     -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
     -moz-transform: scale(0.6) translate3d(50px, 0, 0);
     -ms-transform: scale(0.6) translate3d(50px, 0, 0);
@@ -534,10 +567,12 @@
     transform: scale(0.6) translate3d(50px, 0, 0);
     opacity: 0;
   }
-  50% {
+  /* line 354, ../sass/icons.scss */
+  #services 50%  {
     opacity: 1;
   }
-  100% {
+  /* line 358, ../sass/icons.scss */
+  #services 100%  {
     -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
     -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
     -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);
@@ -546,7 +581,8 @@
   }
 }
 @keyframes bubbles {
-  0% {
+  /* line 368, ../sass/icons.scss */
+  #services 0%  {
     -webkit-transform: scale(0.6) translate3d(50px, 0, 0);
     -moz-transform: scale(0.6) translate3d(50px, 0, 0);
     -ms-transform: scale(0.6) translate3d(50px, 0, 0);
@@ -554,10 +590,12 @@
     transform: scale(0.6) translate3d(50px, 0, 0);
     opacity: 0;
   }
-  50% {
+  /* line 377, ../sass/icons.scss */
+  #services 50%  {
     opacity: 1;
   }
-  100% {
+  /* line 381, ../sass/icons.scss */
+  #services 100%  {
     -webkit-transform: scale(1.25) translate3d(-5px, -5px, 0);
     -moz-transform: scale(1.25) translate3d(-5px, -5px, 0);
     -ms-transform: scale(1.25) translate3d(-5px, -5px, 0);

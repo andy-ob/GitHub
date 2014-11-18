@@ -29,7 +29,7 @@ html {
 /* line 14, ../sass/base.scss */
 body {
   background: #f0f0ec;
-  color: #323A45;
+  color: #323a45;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   height: 100%;
@@ -47,7 +47,7 @@ body {
 
 /* line 32, ../sass/base.scss */
 #preload {
-  background: #323A45;
+  background: #323a45;
   bottom: 0;
   left: 0;
   position: fixed;

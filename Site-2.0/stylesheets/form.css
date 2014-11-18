@@ -14,7 +14,7 @@ input, label, textarea, select {
 
 /* line 7, ../sass/form.scss */
 input, textarea, select {
-  background: #ffffff;
+  background: white;
   border: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -46,10 +46,11 @@ input[type='checkbox'] + label, input[type='radio'] + label {
 
 /* line 29, ../sass/form.scss */
 input[type='submit'] {
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
 /* line 32, ../sass/form.scss */
