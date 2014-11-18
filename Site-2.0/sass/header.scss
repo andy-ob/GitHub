@@ -185,3 +185,51 @@ header {
     padding: 20px;
   }
 }
+
+@-webkit-keyframes menuHoverB {
+    0% {
+        top: -13px;
+    }
+    50% {
+        top: -10px;
+    }
+    100% {
+        top: -13px;
+    }
+}
+
+@keyframes menuHoverB {
+    0% {
+        top: -13px;
+    }
+    50% {
+        top: -10px;
+    }
+    100% {
+        top: -13px;
+    }
+}
+
+@-webkit-keyframes menuHoverA {
+    0% {
+        bottom: -13px;
+    }
+    50% {
+        bottom: -10px;
+    }
+    100% {
+        bottom: -13px;
+    }
+}
+
+@keyframes menuHoverA {
+    0% {
+        bottom: -13px;
+    }
+    50% {
+        bottom: -10px;
+    }
+    100% {
+        bottom: -13px;
+    }
+}
