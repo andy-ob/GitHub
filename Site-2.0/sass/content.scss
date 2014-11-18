@@ -16,6 +16,14 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@mixin centerBottom {
+  bottom: 0;
+	left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 //Homepage hero
 #hero {
@@ -246,6 +254,14 @@
     color: $primaryColor;
     padding: 0.625em;
   }
+	.clickthrough {
+		background: url(../images/coveranchor-icon.png) no-repeat 0 0;
+		color: $secondaryColor;
+		font-size: 1.875em;
+		height: 16px;
+		@include center;
+		width: 16px;
+	}
 }
 .meta-wrap {
   bottom: -100px;
@@ -528,4 +544,95 @@
             @include box-shadow(none);
         }
     }
+}
+
+//Blog
+#blog {
+	h2 {
+		text-align: center;	
+	}
+}
+.entry-list {
+	text-align: center;
+	.blog-item {
+		.imgwrap {
+			margin-bottom: 0;	
+		}
+	}
+}
+.post-summary {
+	margin-top: 3.75em;
+	position: relative;
+	&::after {
+		background: $tertiaryColor;
+		@include centerBottom;
+		content: "";
+		height: 2px;
+		width: 50px;
+	}
+	&:first-child {
+		margin-top: 0;	
+	}
+}
+.blog-item {
+	position: relative;
+	.imgwrap {
+		@include box-shadow(0 0 6px rgb(136, 136, 136));
+		display: block;
+		margin-bottom: 1.25em;
+		overflow: hidden;
+		position: relative;
+		@include transition(all ease-in-out 0.2s);
+		&:hover {
+			.cover {
+				filter: alpha(opacity=85);
+				opacity: 0.85;	
+			}
+		}
+	}
+	img {
+		display: block;
+		width: 100%;
+	}
+	a {
+		color: $primaryColor;
+		&:hover {
+			color: $tertiaryColor;	
+		}
+	}
+}
+.entrytype {
+	background: $tertiaryColor;
+	@include border-radius(50%);
+	display: block;
+	height: 80px;
+	margin: -40px auto 0;
+	position: relative;
+	width: 80px;
+	span {
+		background: url(../images/blog/blog-clickthrough.png) no-repeat 0 0;
+		height: 22px;
+		left: 50%;
+		margin-left: -11px;
+		margin-top: -11px;
+		position: absolute;
+		top: 50%;
+		width: 22px;
+	}
+}
+.entrymeta {
+	margin-bottom: 1.875em;
+	span {
+		color: rgb(174, 174, 174);
+		font-size: 0.875em;
+		font-weight: 200;
+	}
+}
+.entrycontent {
+	text-align: justify;
+}
+.viewmore {
+	display: inline-block;
+	font-weight: 600;
+	margin: 1.875em 0;
 }
