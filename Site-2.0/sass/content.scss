@@ -624,9 +624,12 @@
     position: relative;
     @include box-shadow(2px 2px 10px -2px);
     h3 {
+        font-size: 1.2em;
+        margin: 0;
         position: absolute;
-        top: -20px;
-        left: 20px;
+        top: 15px;
+        right: -20px;
+        @include transform(rotate(30deg));
         background: #f0f0ec;
         padding: 0 10px;
         border-radius: 5px;

@@ -792,9 +792,15 @@
 }
 /* line 626, ../sass/content.scss */
 .job-item h3 {
+  font-size: 1.2em;
+  margin: 0;
   position: absolute;
-  top: -20px;
-  left: 20px;
+  top: 15px;
+  right: -20px;
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
   background: #f0f0ec;
   padding: 0 10px;
   border-radius: 5px;
