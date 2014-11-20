@@ -27,6 +27,14 @@
         }
     }
 }
+@media all and (max-width: 1440px) {
+	#intro {
+		padding: 1.875em 1.25em;
+		&.singlepost {
+			padding: 1.875em;	
+		}
+	}
+}
 @media all and (max-width: 1280px) {
   #mediaCheck {
     display: none;
@@ -159,6 +167,18 @@
       margin: 0;
     }
   }
+	#intro {
+		padding: 1em 0.625em;
+		&.singlepost {
+			padding: 1em 0.625em;	
+		}
+		&::after {
+			border-bottom-width: 10px;
+			border-left-width: 10px;
+			border-right-width: 10px;
+			margin-left: -10px;
+		}
+	}
   .listing-item {
     height: 240px;
   }
@@ -173,6 +193,9 @@
 				margin: 0;	
 			}
 		}
+	}
+	.entrymeta {
+		margin-bottom: 0;	
 	}
 }
 @media all and (max-width: 479px) {

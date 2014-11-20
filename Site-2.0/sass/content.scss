@@ -37,6 +37,7 @@
     position: relative;
     img {
         position: relative;
+		width: 100%;
     }
     @media all and (max-width: 1130px) {
         height: auto;
@@ -59,15 +60,9 @@
     position: relative;
     text-align: center;
     &.singlepost {
-        padding: 4.375em 1.875em;
+        padding: 2.5em;
         * {
             color: $secondaryColor;
-        }
-        .entrymeta {
-            span, a {
-                font-size: 1.125em;
-                font-style: italic;
-            }
         }
     }
     &.port-title {
@@ -106,7 +101,7 @@
     font-size: 1.5em;
     font-weight: 100;
     line-height: $ratio + em;
-    padding: 50px 0;
+    //padding: 2.083333333333333em 0;
 }
 #content {
     padding: 2.5em 0;
@@ -553,6 +548,10 @@
         margin-top: 0;
     }
 }
+.post-detail {
+	padding: 0 9.375em;
+	text-align: justify;
+}
 .blog-item {
     position: relative;
     .imgwrap {
@@ -603,9 +602,20 @@
     margin-bottom: 1.875em;
     span {
         color: rgb(174, 174, 174);
-        font-size: 0.875em;
+        font-size: 1.125em;
+		font-style: italic;
         font-weight: 200;
     }
+	&.footer-meta {
+		margin-bottom: 0;
+		a {
+			color: $tertiaryColor;
+		}
+		span {
+			color: $primaryColor;
+			font-size: 0.875em;
+		}
+	}
 }
 .entrycontent {
     text-align: justify;
