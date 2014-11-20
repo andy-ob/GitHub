@@ -167,6 +167,13 @@
       height: 500px;
     }
   }
+	.entry-list {
+		.blog-item {
+			.imgwrap {
+				margin: 0;	
+			}
+		}
+	}
 }
 @media all and (max-width: 479px) {
   .contain {
