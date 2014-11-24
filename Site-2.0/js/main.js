@@ -799,7 +799,7 @@ $(function () {
 	  var infowindow = new google.maps.InfoWindow({
 		  maxWidth: 284
 	  });
-	  var image = '/images/map-marker.png';
+	  var image = 'images/map-marker.png';
 	  var marker = new google.maps.Marker({
 		  animation: google.maps.Animation.DROP,
 		  position: new google.maps.LatLng(lat, lng),
