@@ -73,10 +73,10 @@ header {
         span {
             background: transparent;
             &:before {
-                transform: rotate(45deg) translate(10px, 8px);
+                @include transform(rotate(45deg) translate(10px, 8px));
             }
             &:after {
-                transform: rotate(-45deg) translate(10px, -8px);
+                @include transform(rotate(-45deg) translate(10px, -8px));
             }
         }
     }
@@ -152,16 +152,14 @@ header {
         height: 2px;
         left: 0;
         position: absolute;
-        transform: rotate(90deg);
+        @include transform(rotate(90deg));
         top: 0;
-        -webkit-transform: rotate(90deg);
         width: 100%;
       }
     }
     &.open {
       span {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+        @include transform(rotate(45deg));
       }
     }
   }
