@@ -146,33 +146,33 @@
   }
   /* line 120, ../sass/media-queries.scss */
   .menu-trigger span {
-    height: 2px;
-    margin: 9px auto;
+    height: 3px;
+    margin: 8px auto;
     width: 20px;
   }
   /* line 124, ../sass/media-queries.scss */
   .menu-trigger span:before, .menu-trigger span::before {
-    height: 2px;
-    top: -9px;
+    height: 3px;
+    top: -8px;
   }
   /* line 128, ../sass/media-queries.scss */
   .menu-trigger span:after, .menu-trigger span::after {
-    height: 2px;
-    bottom: -9px;
+    height: 3px;
+    bottom: -8px;
   }
   /* line 135, ../sass/media-queries.scss */
   .menu-trigger.open span:before, .menu-trigger.open span::before {
-    -moz-transform: rotate(45deg) translate(7px, 6px);
-    -ms-transform: rotate(45deg) translate(7px, 6px);
-    -webkit-transform: rotate(45deg) translate(7px, 6px);
-    transform: rotate(45deg) translate(7px, 6px);
+    -moz-transform: rotate(45deg) translate(5px, 7px);
+    -ms-transform: rotate(45deg) translate(5px, 7px);
+    -webkit-transform: rotate(45deg) translate(5px, 7px);
+    transform: rotate(45deg) translate(5px, 7px);
   }
   /* line 138, ../sass/media-queries.scss */
   .menu-trigger.open span:after, .menu-trigger.open span::after {
-    -moz-transform: rotate(-45deg) translate(6px, -6px);
-    -ms-transform: rotate(-45deg) translate(6px, -6px);
-    -webkit-transform: rotate(-45deg) translate(6px, -6px);
-    transform: rotate(-45deg) translate(6px, -6px);
+    -moz-transform: rotate(-45deg) translate(4px, -6px);
+    -ms-transform: rotate(-45deg) translate(4px, -6px);
+    -webkit-transform: rotate(-45deg) translate(4px, -6px);
+    transform: rotate(-45deg) translate(4px, -6px);
   }
 
   /* line 144, ../sass/media-queries.scss */
